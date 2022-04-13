@@ -1,0 +1,180 @@
+{% extends 'about_base.html' %}
+
+{% block content %}
+  <header>
+
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="{{ url_for('index') }}">Pushin P</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{{ url_for('index') }}">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{{ url_for('login')}}">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="{{ url_for('about') }}">About</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <section class="welcome-section">
+      <div class="container p-1 p-sm-3">
+          <div class="row">
+              <div class="col-12 text-center" style = "position:relative; top:2em;" id="heading">
+                  <h1>By Emory Students, For Emory Students</h1>
+                  <hr>
+              </div>
+              <div class="col-lg-5 col-md-12" style = "position:relative; top:2em">
+                  <img class ="logo" src="{{ url_for('static', filename='about-assets/emory-logo.png') }}" alt="">
+              </div>
+              <div class="col-lg-7 col-md-12" style = "position:relative; top:2em">
+                <h2>Welcome to the Pushin P About Page</h2>
+                <p>
+                  &emsp; If you want to learn more about our team and product, 
+                  you are in the right place. <br>
+                  &emsp; We are a group of 7 hardworking and talented programmers looking to 
+                  make innovative products and make an impact on the tech industry. <br>
+                  &emsp; With our scheduling app,
+                  we hope to change the way people view schedule making. 
+                </p>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <div class="about" style = "position:relative; top:3em;">
+      <h1>ABOUT US</h1>
+      <div class="content-box-lg">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-12">
+              <div class="about-item text-center">
+                <i class="fa fa-book fa-2x"></i>
+                <h3>MISSION</h3>
+                <hr>
+                <p>Provide more personalized structure and focus in your course schedule while staying connected with peers.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12">
+              <div class="about-item text-center">
+                <i class="fa fa-globe fa-2x"></i>
+                <h3>VISION</h3>
+                <hr>
+                <p>A future in which it is easy to build and share schedules with your community.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12">
+              <div class="about-item text-center">
+                <i class="fa fa-pencil fa-2x"></i>
+                <h3>IMPACT</h3>
+                <hr>
+                <ul class="achievments">
+                  <li>Decrease the time to make and keep track of your schedule</li>
+                  <li>Increase productivity to achieve new heights</li>
+                  <li>Connect more with your friends and make plans to have fun</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+  <section class="section-1">
+    <div class="container text-center" style="position: relative; top: 2em;">
+      <div class="row">
+        <div class="col-md-6" style = "position:relative; top:4em;">
+          <div class="happyStudents">
+            <img class="students" src="{{ url_for('static', filename='about-assets/groupofcollegestudents.png') }}" alt="happy">
+          </div>
+        </div>
+
+        <div class="col-md-6" style = "position:relative; top:4em;">
+          <div class="panel text-left" id="elevator">
+            <h2>It's like Coursicle, but staying connected with your friends and their schedules</h2>
+            <p>Gone are the days of constant struggle and poor time management. Keep your schedule, and life, on track with Pushin P's scheduling app!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-2 container-fluid p-0">
+    <div class="cover">
+      <div class="content text-center" style="position: relative; top: 6em;">
+        <h2>Meet the Team</h2>
+      </div>
+    </div>
+    
+    <div class="container-fluid text-center">
+      <div class="numbers d-flex flex-md-row flex-wrap justify-content-center" style="position: relative; top: 6em;">
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <h5>Product Manager</h5>
+            <p>
+              <i>- Jacob Choi</i>
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <h5>Scrum Master</h5>
+            <p>
+              <i>- Andy Kim</i>
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <h5>Developer</h5>
+            <p>
+              <i>- Jesse Cho</i>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <h5>Developer</h5>
+            <p>
+              <i>- Kevin Kim</i>
+            </p>
+          </div>
+          <div class="col-md-3 text-center">
+            <h5>Developer</h5>
+            <p>
+              <i>- Eric Park</i>
+            </p>
+          </div>
+          <div class="col-md-3 text-center">
+            <h5>Developer</h5>
+            <p>
+              <i>- Isaiah Swain</i>
+            </p>
+          </div>
+          <div class="col-md-3 text-center">
+            <h5>Developer</h5>
+            <p>
+              <i>- Brandon Zhang</i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  </main>
+
+  <footer class="text-center" style="margin-top: 100px";>
+  <p>Copyright &copy; 2022 All rights reserved by Pushin PP Inc.</p>
+  </footer>
+{% endblock %}

@@ -1,0 +1,129 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.welcome-section hr {
+    height: 5px;
+    margin-bottom: 20px;
+}
+
+.welcome-section p {
+    line-height: 50px;
+    margin-bottom: 15px;
+    color: #333;
+    font-size: larger;
+    letter-spacing: 0.1ch;
+    border: 3px solid #333333;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    letter-spacing: 0.3ch;
+    padding-left: 15px;
+    position: relative;
+}
+
+.logo {
+    border-radius: 25%;
+    height: 350px;
+    width: 350px;
+}
+
+.col-md-12 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20pxs;
+}
+
+.navbar {
+    background: linear-gradient(120deg, #7f70f5, #0ea0ff);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.navbar-brand {
+    margin-right: 200px;
+    font-size: 25px;
+}
+
+.students {
+    width: 900px;
+}
+
+#elevator {
+    border: 3px solid #333333;
+    border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+    letter-spacing: 0.3ch;
+    background: #ffffff;
+    position: relative;
+}
+
+.rect {
+    border: 3px solid black;
+    position: relative;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.navbar-toggler {
+    border-radius: 2em;
+    transform: box-shadow 15s ease-in-out;
+}
+
+.about {
+    margin: 10px;
+    padding: 5px;
+}
+
+.about h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.about p,
+.about li,
+.about i,
+.about h3 {
+    text-align: center;
+    padding: 3px;
+    color: white;
+}
+
+.about-item {
+    margin-bottom: 20px;
+    background-color: #012169;
+    box-shadow: 0 0 9px rgba(0, 0, 0.6);
+    height: 340px;
+    letter-spacing: .3ch;
+    font-weight: bold;
+}
+
+.about-item:hover {
+    background: linear-gradient(120deg, #7f70f5, #0ea0ff);
+}
+
+.about-item i {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.about-item hr {
+    width: 60px;
+    height: 5px;
+    margin: auto;
+    border: none;
+    background-color: white;
+}
+
+.section-1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.about-item:hover i {
+    transform: translateY(-25px);
+}
+
