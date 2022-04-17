@@ -38,9 +38,14 @@
         </div>
     </nav>
     <!-- search form here -->
-    <form class="search-form">
-        <div class="input-group"><span class="input-group-text"><i class="fa fa-search"></i></span><input class="form-control" type="text" placeholder="I am looking for.."><button class="btn btn-light" type="button">Search </button></div>
+    <form method = "POST" action = "{{url_for('search')}}" class = "d-flex">
+        <input class="form-control me-2" type = "search" placeholder = "Search" aria-label = "Search", name = "searched">
+        <button class = "btn btn-outline secondary" type = "submit">Search</button>
     </form><link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- <form class="search-form">
+        <div class="input-group"><span class="input-group-text"><i class="fa fa-search"></i></span><input class="form-control" type="text" placeholder="I am looking for.."><button class="btn btn-light" type="button">Search </button></div>
+    </form><link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" /> -->
 
     <!-- event schedule stuff -->
     {% block content %}

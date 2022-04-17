@@ -1,0 +1,15 @@
+{% extends 'index_base.html' %}
+
+{% block content %}
+  
+    <br/>
+    <h2>You Searched For...</h2>
+    <p>{{ searched }}</p>
+    <br/>
+
+    {% for post in filtered %}
+        {{ post }}<br/>
+    {% endfor %}
+
+
+{% endblock %}
