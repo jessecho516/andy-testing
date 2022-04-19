@@ -1,0 +1,835 @@
+{
+    "D. Fossati": {
+        "Quality": "3.6",
+        "Level of Difficulty": "4.3",
+        "Would Take Again": "64%",
+        "Courses": [
+            {
+                "Class Title": "Introduction To Computer Science I",
+                "Section Number": "1",
+                "Times": "MW 5:30-6:45p; F 8-8:50a"
+            },
+            {
+                "Class Title": "Introduction To Computer Science I",
+                "Section Number": "2",
+                "Times": "MW 5:30-6:45p; F 9-9:50a"
+            },
+            {
+                "Class Title": "Introduction To Computer Science I",
+                "Section Number": "3",
+                "Times": "MW 5:30-6:45p; F 3-3:50p"
+            },
+            {
+                "Class Title": "Introduction To Computer Science I",
+                "Section Number": "4",
+                "Times": "MW 5:30-6:45p; F 4-4:50p"
+            },
+            {
+                "Class Title": "Computer Science Practicum",
+                "Section Number": "1",
+                "Times": "MW 2:30-3:45p"
+            },
+            {
+                "Class Title": "Honors",
+                "Section Number": "1",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Directed Research",
+                "Section Number": "36",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "A. Julian": {
+        "Quality": "5",
+        "Level of Difficulty": "2.5",
+        "Would Take Again": "100%",
+        "Courses": [
+            {
+                "Class Title": "Introduction to Computer Science II",
+                "Section Number": "1",
+                "Times": "MW 11:30a-12:45p"
+            }
+        ]
+    },
+    "J. Ho": {
+        "Quality": "4.7",
+        "Level of Difficulty": "3.7",
+        "Would Take Again": "100%",
+        "Courses": [
+            {
+                "Class Title": "Introduction to Computer Science II",
+                "Section Number": "2",
+                "Times": "TTh 11:30a-12:45p"
+            },
+            {
+                "Class Title": "Directed Research",
+                "Section Number": "13",
+                "Times": "Meets Online"
+            },
+            {
+                "Class Title": "Rotation Project",
+                "Section Number": "6",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Research",
+                "Section Number": "5",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Dissertation Research",
+                "Section Number": "6",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "A. Pouriyeh": {
+        "Quality": "3",
+        "Level of Difficulty": "3",
+        "Would Take Again": "67%",
+        "Courses": [
+            {
+                "Class Title": "Foundations of Computer Science",
+                "Section Number": "1",
+                "Times": "TTh 8:30-9:45a"
+            }
+        ]
+    },
+    "L. Zhao": {
+        "Quality": "3",
+        "Level of Difficulty": "3",
+        "Would Take Again": "67%",
+        "Courses": [
+            {
+                "Class Title": "Data Structures and Algorithms",
+                "Section Number": "1",
+                "Times": "MW 1-2:15p"
+            },
+            {
+                "Class Title": "Data Mining",
+                "Section Number": "1",
+                "Times": "MW 4-5:15p"
+            },
+            {
+                "Class Title": "Directed Research",
+                "Section Number": "56",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Rotation Project",
+                "Section Number": "17",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Research",
+                "Section Number": "14",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Dissertation Research",
+                "Section Number": "15",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "J. Choi": {
+        "Quality": "4.3",
+        "Level of Difficulty": "3.9",
+        "Would Take Again": "50%",
+        "Courses": [
+            {
+                "Class Title": "Data Structures and Algorithms",
+                "Section Number": "2",
+                "Times": "TTh 2:30-3:45p"
+            },
+            {
+                "Class Title": "Computational Linguistics",
+                "Section Number": "1",
+                "Times": "TTh 1-2:15p"
+            },
+            {
+                "Class Title": "Rotation Project",
+                "Section Number": "4",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Research",
+                "Section Number": "4",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Dissertation Research",
+                "Section Number": "5",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "S. Cheung": {
+        "Quality": null,
+        "Level of Difficulty": null,
+        "Would Take Again": null,
+        "Courses": [
+            {
+                "Class Title": "Computer Architecture/Machine Level Programming",
+                "Section Number": "1",
+                "Times": "MW 2:30-3:45p"
+            },
+            {
+                "Class Title": "Advanced Computer Architecture",
+                "Section Number": "1",
+                "Times": "MW 11:30a-12:45p"
+            },
+            {
+                "Class Title": "Computer Science Master's Practicum",
+                "Section Number": "1",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "E. Agichtein": {
+        "Quality": "3.5",
+        "Level of Difficulty": "4.2",
+        "Would Take Again": "50%",
+        "Courses": [
+            {
+                "Class Title": "Artificial Intelligence",
+                "Section Number": "1",
+                "Times": "MW 1-2:15p"
+            },
+            {
+                "Class Title": "Rotation Project",
+                "Section Number": "1",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Research",
+                "Section Number": "1",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Dissertation Research",
+                "Section Number": "2",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "S. La Fleur": {
+        "Quality": "2.4",
+        "Level of Difficulty": "3.7",
+        "Would Take Again": "31%",
+        "Courses": [
+            {
+                "Class Title": "Artificial Intelligence",
+                "Section Number": "2",
+                "Times": "MW 2:30-3:45p"
+            }
+        ]
+    },
+    "M. Grigni": {
+        "Quality": "3.9",
+        "Level of Difficulty": "3.7",
+        "Would Take Again": "100%",
+        "Courses": [
+            {
+                "Class Title": "Analysis of Algorithms",
+                "Section Number": "1",
+                "Times": "TTh 1-2:15p"
+            },
+            {
+                "Class Title": "Theory of Computing",
+                "Section Number": "1",
+                "Times": "TTh 4-5:15p"
+            },
+            {
+                "Class Title": "Theory Of Computing",
+                "Section Number": "1",
+                "Times": "TTh 4-5:15p"
+            }
+        ]
+    },
+    "D. Arnold": {
+        "Quality": "2",
+        "Level of Difficulty": "4.4",
+        "Would Take Again": "30%",
+        "Courses": [
+            {
+                "Class Title": "Systems Programming",
+                "Section Number": "1",
+                "Times": "TTh 11:30a-12:45p"
+            },
+            {
+                "Class Title": "Rotation Project",
+                "Section Number": "2",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Research",
+                "Section Number": "2",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Dissertation Research",
+                "Section Number": "3",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "S. Madamanchi": {
+        "Quality": "5",
+        "Level of Difficulty": "1",
+        "Would Take Again": "100%",
+        "Courses": [
+            {
+                "Class Title": "Computer Science Practicum",
+                "Section Number": "2",
+                "Times": "MW 1-2:15p"
+            }
+        ]
+    },
+    "N. El-Sayed": {
+        "Quality": "4.4",
+        "Level of Difficulty": "3.3",
+        "Would Take Again": "77%",
+        "Courses": [
+            {
+                "Class Title": "Database Systems",
+                "Section Number": "1",
+                "Times": "MW 8:30-9:45a"
+            },
+            {
+                "Class Title": "Teaching Seminar (TATTO Requirement)",
+                "Section Number": "1",
+                "Times": "F 2-2:50p"
+            }
+        ]
+    },
+    "K. Mandelberg": {
+        "Quality": "2.2",
+        "Level of Difficulty": "3.7",
+        "Would Take Again": "0%",
+        "Courses": [
+            {
+                "Class Title": "Operating Systems",
+                "Section Number": "1",
+                "Times": "TTh 2:30-3:45p"
+            },
+            {
+                "Class Title": "Operating Systems",
+                "Section Number": "1",
+                "Times": "TTh 2:30-3:45p"
+            }
+        ]
+    },
+    "Y. Vigfusson": {
+        "Quality": "4.5",
+        "Level of Difficulty": "3.7",
+        "Would Take Again": "100%",
+        "Courses": [
+            {
+                "Class Title": "Computer Security",
+                "Section Number": "1",
+                "Times": "TTh 11:30a-12:45p"
+            },
+            {
+                "Class Title": "Information and Computer Security",
+                "Section Number": "1",
+                "Times": "TTh 11:30a-12:45p"
+            },
+            {
+                "Class Title": "Rotation Project",
+                "Section Number": "13",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Research",
+                "Section Number": "10",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Dissertation Research",
+                "Section Number": "11",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "E. Wall": {
+        "Quality": null,
+        "Level of Difficulty": null,
+        "Would Take Again": null,
+        "Courses": [
+            {
+                "Class Title": "Topics in Computer Science: Human-Computer Interaction",
+                "Section Number": "1",
+                "Times": "TTh 10-11:15a"
+            },
+            {
+                "Class Title": "Topics in Computer Science: Quantum Computing",
+                "Section Number": "1",
+                "Times": "TTh 10-11:15a"
+            },
+            {
+                "Class Title": "Topics In Computer Science: Human-Computer Interaction",
+                "Section Number": "1",
+                "Times": "TTh 10-11:15a"
+            },
+            {
+                "Class Title": "Rotation Project",
+                "Section Number": "14",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Research",
+                "Section Number": "11",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Dissertation Research",
+                "Section Number": "12",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "J. Brody": {
+        "Quality": null,
+        "Level of Difficulty": null,
+        "Would Take Again": null,
+        "Courses": [
+            {
+                "Class Title": "Topics in Computer Science: Human-Computer Interaction",
+                "Section Number": "2",
+                "Times": "MW 5:30-6:45p"
+            },
+            {
+                "Class Title": "Topics in Computer Science: Quantum Computing",
+                "Section Number": "2",
+                "Times": "MW 5:30-6:45p"
+            }
+        ]
+    },
+    "C. Yang": {
+        "Quality": "3.5",
+        "Level of Difficulty": "3.9",
+        "Would Take Again": "60%",
+        "Courses": [
+            {
+                "Class Title": "Directed Research",
+                "Section Number": "57",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Data Mining",
+                "Section Number": "1",
+                "Times": "MW 10-11:15a"
+            },
+            {
+                "Class Title": "Rotation Project",
+                "Section Number": "16",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Research",
+                "Section Number": "13",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Dissertation Research",
+                "Section Number": "14",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "Qin/Pittard": {
+        "Quality": null,
+        "Level of Difficulty": null,
+        "Would Take Again": null,
+        "Courses": [
+            {
+                "Class Title": "Machine Learning",
+                "Section Number": "1",
+                "Times": "TTh 3-4:20p"
+            }
+        ]
+    },
+    "L. Xiong": {
+        "Quality": "5",
+        "Level of Difficulty": "3.7",
+        "Would Take Again": "100%",
+        "Courses": [
+            {
+                "Class Title": "Data Privacy and Security",
+                "Section Number": "1",
+                "Times": "MW 1-2:15p"
+            },
+            {
+                "Class Title": "Rotation Project",
+                "Section Number": "15",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Dissertation Research",
+                "Section Number": "18",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "M. Bhasin": {
+        "Quality": null,
+        "Level of Difficulty": null,
+        "Would Take Again": null,
+        "Courses": [
+            {
+                "Class Title": "Directed Study",
+                "Section Number": "1",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Rotation Project",
+                "Section Number": "3",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Research",
+                "Section Number": "3",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Dissertation Research",
+                "Section Number": "4",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "L. Ruthotto": {
+        "Quality": null,
+        "Level of Difficulty": null,
+        "Would Take Again": null,
+        "Courses": [
+            {
+                "Class Title": "Rotation Project",
+                "Section Number": "10",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Research",
+                "Section Number": "15",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Dissertation Research",
+                "Section Number": "16",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "R. Sameni": {
+        "Quality": null,
+        "Level of Difficulty": null,
+        "Would Take Again": null,
+        "Courses": [
+            {
+                "Class Title": "Rotation Project",
+                "Section Number": "11",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "A. Sarker": {
+        "Quality": null,
+        "Level of Difficulty": null,
+        "Would Take Again": null,
+        "Courses": [
+            {
+                "Class Title": "Rotation Project",
+                "Section Number": "12",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Research",
+                "Section Number": "9",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Dissertation Research",
+                "Section Number": "10",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "X. Yang": {
+        "Quality": null,
+        "Level of Difficulty": null,
+        "Would Take Again": null,
+        "Courses": [
+            {
+                "Class Title": "Rotation Project",
+                "Section Number": "18",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Research",
+                "Section Number": "17",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "V. Sukhatme": {
+        "Quality": null,
+        "Level of Difficulty": null,
+        "Would Take Again": null,
+        "Courses": [
+            {
+                "Class Title": "Rotation Project",
+                "Section Number": "19",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "S. Raikar": {
+        "Quality": null,
+        "Level of Difficulty": null,
+        "Would Take Again": null,
+        "Courses": [
+            {
+                "Class Title": "Rotation Project",
+                "Section Number": "20",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "G. Clifford": {
+        "Quality": null,
+        "Level of Difficulty": null,
+        "Would Take Again": null,
+        "Courses": [
+            {
+                "Class Title": "Rotation Project",
+                "Section Number": "5",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Dissertation Research",
+                "Section Number": "19",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "B. Mahmoudi": {
+        "Quality": null,
+        "Level of Difficulty": null,
+        "Would Take Again": null,
+        "Courses": [
+            {
+                "Class Title": "Rotation Project",
+                "Section Number": "7",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Research",
+                "Section Number": "7",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Dissertation Research",
+                "Section Number": "8",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "Z. Qin": {
+        "Quality": null,
+        "Level of Difficulty": null,
+        "Would Take Again": null,
+        "Courses": [
+            {
+                "Class Title": "Rotation Project",
+                "Section Number": "8",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Research",
+                "Section Number": "8",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Dissertation Research",
+                "Section Number": "9",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "M. Reyna": {
+        "Quality": null,
+        "Level of Difficulty": null,
+        "Would Take Again": null,
+        "Courses": [
+            {
+                "Class Title": "Rotation Project",
+                "Section Number": "9",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "A. Wildani": {
+        "Quality": "2.6",
+        "Level of Difficulty": "4",
+        "Would Take Again": "37%",
+        "Courses": [
+            {
+                "Class Title": "Research",
+                "Section Number": "12",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Dissertation Research",
+                "Section Number": "13",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "H. Wu": {
+        "Quality": null,
+        "Level of Difficulty": null,
+        "Would Take Again": null,
+        "Courses": [
+            {
+                "Class Title": "Research",
+                "Section Number": "16",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Dissertation Research",
+                "Section Number": "17",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "I. Banerjee": {
+        "Quality": "3",
+        "Level of Difficulty": "4",
+        "Would Take Again": "0%",
+        "Courses": [
+            {
+                "Class Title": "Research",
+                "Section Number": "18",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Dissertation Research",
+                "Section Number": "21",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "R. Kamaleswaran": {
+        "Quality": null,
+        "Level of Difficulty": null,
+        "Would Take Again": null,
+        "Courses": [
+            {
+                "Class Title": "Research",
+                "Section Number": "6",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Dissertation Research",
+                "Section Number": "7",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "V. Sunderam": {
+        "Quality": "3.7",
+        "Level of Difficulty": "3.2",
+        "Would Take Again": "63%",
+        "Courses": [
+            {
+                "Class Title": "Graduate Seminar",
+                "Section Number": "1",
+                "Times": "F 10-11a"
+            },
+            {
+                "Class Title": "Dissertation Research",
+                "Section Number": "1",
+                "Times": "F 11a-12p"
+            },
+            {
+                "Class Title": "Dissertation Research",
+                "Section Number": "20",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "T. Li": {
+        "Quality": null,
+        "Level of Difficulty": null,
+        "Would Take Again": null,
+        "Courses": [
+            {
+                "Class Title": "Introduction To Computer Science I w/Laboratory",
+                "Section Number": "1",
+                "Times": "TTh 8:30-9:45a"
+            },
+            {
+                "Class Title": "Introduction To Computer Science I w/Laboratory",
+                "Section Number": "2",
+                "Times": "TTh 10-11:15a"
+            },
+            {
+                "Class Title": "Introduction To Computer Science I w/Laboratory",
+                "Section Number": "3",
+                "Times": "F 8:30-9:20a"
+            },
+            {
+                "Class Title": "Introduction To Computer Science I w/Laboratory",
+                "Section Number": "4",
+                "Times": "F 10-10:50a"
+            },
+            {
+                "Class Title": "Introduction To Computer Science I w/Laboratory",
+                "Section Number": "5",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Introduction To Computer Science I w/Laboratory",
+                "Section Number": "6",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Class Title": "Data Structures and Algorithms",
+                "Section Number": "1",
+                "Times": "TTh 1-2:15p"
+            },
+            {
+                "Class Title": "Directed Study",
+                "Section Number": "1",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "P. Oser": {
+        "Quality": null,
+        "Level of Difficulty": null,
+        "Would Take Again": null,
+        "Courses": [
+            {
+                "Class Title": "Introduction to Computer Science II",
+                "Section Number": "1",
+                "Times": "TTh 1-2:15p"
+            }
+        ]
+    },
+    "J. Hulgan": {
+        "Quality": null,
+        "Level of Difficulty": null,
+        "Would Take Again": null,
+        "Courses": [
+            {
+                "Class Title": "Mathematical Foundation of Computer Science",
+                "Section Number": "1",
+                "Times": "TTh 2:30-3:45p"
+            }
+        ]
+    }
+}

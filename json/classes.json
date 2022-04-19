@@ -1,0 +1,716 @@
+{
+    "CS 170": {
+        "Class Title": "Introduction To Computer Science I",
+        "Credit Hours": "4",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "MW 5:30-6:45p; F 8-8:50a"
+            },
+            {
+                "Section Number": "2",
+                "Times": "MW 5:30-6:45p; F 9-9:50a"
+            },
+            {
+                "Section Number": "3",
+                "Times": "MW 5:30-6:45p; F 3-3:50p"
+            },
+            {
+                "Section Number": "4",
+                "Times": "MW 5:30-6:45p; F 4-4:50p"
+            }
+        ]
+    },
+    "CS 171": {
+        "Class Title": "Introduction to Computer Science II",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "MW 11:30a-12:45p"
+            },
+            {
+                "Section Number": "2",
+                "Times": "TTh 11:30a-12:45p"
+            }
+        ]
+    },
+    "CS 224": {
+        "Class Title": "Foundations of Computer Science",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "TTh 8:30-9:45a"
+            }
+        ]
+    },
+    "CS 253": {
+        "Class Title": "Data Structures and Algorithms",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "MW 1-2:15p"
+            },
+            {
+                "Section Number": "2",
+                "Times": "TTh 2:30-3:45p"
+            }
+        ]
+    },
+    "CS 255": {
+        "Class Title": "Computer Architecture/Machine Level Programming",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "MW 2:30-3:45p"
+            }
+        ]
+    },
+    "CS 325": {
+        "Class Title": "Artificial Intelligence",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "MW 1-2:15p"
+            },
+            {
+                "Section Number": "2",
+                "Times": "MW 2:30-3:45p"
+            }
+        ]
+    },
+    "CS 326": {
+        "Class Title": "Analysis of Algorithms",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "TTh 1-2:15p"
+            }
+        ]
+    },
+    "CS 329": {
+        "Class Title": "Computational Linguistics",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "TTh 1-2:15p"
+            }
+        ]
+    },
+    "CS 350": {
+        "Class Title": "Systems Programming",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "TTh 11:30a-12:45p"
+            }
+        ]
+    },
+    "CS 355": {
+        "Class Title": "Advanced Computer Architecture",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "MW 11:30a-12:45p"
+            }
+        ]
+    },
+    "CS 370": {
+        "Class Title": "Computer Science Practicum",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "MW 2:30-3:45p"
+            },
+            {
+                "Section Number": "2",
+                "Times": "MW 1-2:15p"
+            }
+        ]
+    },
+    "CS 377": {
+        "Class Title": "Database Systems",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "MW 8:30-9:45a"
+            }
+        ]
+    },
+    "CS 424": {
+        "Class Title": "Theory of Computing",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "TTh 4-5:15p"
+            }
+        ]
+    },
+    "CS 452": {
+        "Class Title": "Operating Systems",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "TTh 2:30-3:45p"
+            }
+        ]
+    },
+    "CS 453": {
+        "Class Title": "Computer Security",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "TTh 11:30a-12:45p"
+            }
+        ]
+    },
+    "CS 470": {
+        "Class Title": "Data Mining",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "MW 4-5:15p"
+            }
+        ]
+    },
+    "CS 485": {
+        "Class Title": "Topics in Computer Science: Human-Computer Interaction",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "TTh 10-11:15a"
+            },
+            {
+                "Section Number": "2",
+                "Times": "MW 5:30-6:45p"
+            },
+            {
+                "Section Number": "1",
+                "Times": "TTh 10-11:15a"
+            },
+            {
+                "Section Number": "2",
+                "Times": "MW 5:30-6:45p"
+            }
+        ]
+    },
+    "CS 495RW": {
+        "Class Title": "Honors",
+        "Credit Hours": "1-8",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "CS 497R": {
+        "Class Title": "Directed Research",
+        "Credit Hours": "1-4",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "13",
+                "Times": "Meets Online"
+            },
+            {
+                "Section Number": "36",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "56",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "57",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "CS 524": {
+        "Class Title": "Theory Of Computing",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "TTh 4-5:15p"
+            }
+        ]
+    },
+    "CS 534": {
+        "Class Title": "Machine Learning",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "TTh 3-4:20p"
+            }
+        ]
+    },
+    "CS 553": {
+        "Class Title": "Information and Computer Security",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "TTh 11:30a-12:45p"
+            }
+        ]
+    },
+    "CS 570": {
+        "Class Title": "Data Mining",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "MW 10-11:15a"
+            }
+        ]
+    },
+    "CS 573": {
+        "Class Title": "Data Privacy and Security",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "MW 1-2:15p"
+            }
+        ]
+    },
+    "CS 580": {
+        "Class Title": "Operating Systems",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "TTh 2:30-3:45p"
+            }
+        ]
+    },
+    "CS 584": {
+        "Class Title": "Topics In Computer Science: Human-Computer Interaction",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "TTh 10-11:15a"
+            }
+        ]
+    },
+    "CS 590": {
+        "Class Title": "Teaching Seminar (TATTO Requirement)",
+        "Credit Hours": "1",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "F 2-2:50p"
+            }
+        ]
+    },
+    "CS 596R": {
+        "Class Title": "Computer Science Master's Practicum",
+        "Credit Hours": "1",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "CS 597R": {
+        "Class Title": "Directed Study",
+        "Credit Hours": "1-9",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "CS 598R": {
+        "Class Title": "Rotation Project",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "10",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "11",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "12",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "13",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "14",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "15",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "16",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "17",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "18",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "19",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "2",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "20",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "3",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "4",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "5",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "6",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "7",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "8",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "9",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "CS 599R": {
+        "Class Title": "Research",
+        "Credit Hours": "1-9",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "10",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "11",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "12",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "13",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "14",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "15",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "16",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "17",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "18",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "2",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "3",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "4",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "5",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "6",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "7",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "8",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "9",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "CS 700R": {
+        "Class Title": "Graduate Seminar",
+        "Credit Hours": "1",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "F 10-11a"
+            }
+        ]
+    },
+    "CS 799R": {
+        "Class Title": "Dissertation Research",
+        "Credit Hours": "Varies",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "F 11a-12p"
+            },
+            {
+                "Section Number": "10",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "11",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "12",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "13",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "14",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "15",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "16",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "17",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "18",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "19",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "2",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "20",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "21",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "3",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "4",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "5",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "6",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "7",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "8",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "9",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "CS_OX 170Q": {
+        "Class Title": "Introduction To Computer Science I w/Laboratory",
+        "Credit Hours": "4",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "TTh 8:30-9:45a"
+            },
+            {
+                "Section Number": "2",
+                "Times": "TTh 10-11:15a"
+            },
+            {
+                "Section Number": "3",
+                "Times": "F 8:30-9:20a"
+            },
+            {
+                "Section Number": "4",
+                "Times": "F 10-10:50a"
+            },
+            {
+                "Section Number": "5",
+                "Times": "Does Not Meet"
+            },
+            {
+                "Section Number": "6",
+                "Times": "Does Not Meet"
+            }
+        ]
+    },
+    "CS_OX 171": {
+        "Class Title": "Introduction to Computer Science II",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "TTh 1-2:15p"
+            }
+        ]
+    },
+    "CS_OX 224": {
+        "Class Title": "Mathematical Foundation of Computer Science",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "TTh 2:30-3:45p"
+            }
+        ]
+    },
+    "CS_OX 253": {
+        "Class Title": "Data Structures and Algorithms",
+        "Credit Hours": "3",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "TTh 1-2:15p"
+            }
+        ]
+    },
+    "CS_OX 297R": {
+        "Class Title": "Directed Study",
+        "Credit Hours": "1",
+        "Class Rating": "5.0",
+        "Sections": [
+            {
+                "Section Number": "1",
+                "Times": "Does Not Meet"
+            }
+        ]
+    }
+}

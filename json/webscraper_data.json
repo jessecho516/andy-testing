@@ -1,0 +1,898 @@
+{
+    "1": {
+        "Class Code": "CS 170",
+        "Section #": "1",
+        "Class Title": "Introduction To Computer Science I",
+        "Credit Hours": "4",
+        "Times": "MW 5:30-6:45p; F 8-8:50a",
+        "Professors": "D. Fossati"
+    },
+    "2": {
+        "Class Code": "CS 170",
+        "Section #": "2",
+        "Class Title": "Introduction To Computer Science I",
+        "Credit Hours": "4",
+        "Times": "MW 5:30-6:45p; F 9-9:50a",
+        "Professors": "D. Fossati"
+    },
+    "3": {
+        "Class Code": "CS 170",
+        "Section #": "3",
+        "Class Title": "Introduction To Computer Science I",
+        "Credit Hours": "4",
+        "Times": "MW 5:30-6:45p; F 3-3:50p",
+        "Professors": "D. Fossati"
+    },
+    "4": {
+        "Class Code": "CS 170",
+        "Section #": "4",
+        "Class Title": "Introduction To Computer Science I",
+        "Credit Hours": "4",
+        "Times": "MW 5:30-6:45p; F 4-4:50p",
+        "Professors": "D. Fossati"
+    },
+    "5": {
+        "Class Code": "CS 171",
+        "Section #": "1",
+        "Class Title": "Introduction to Computer Science II",
+        "Credit Hours": "3",
+        "Times": "MW 11:30a-12:45p",
+        "Professors": "A. Julian"
+    },
+    "6": {
+        "Class Code": "CS 171",
+        "Section #": "2",
+        "Class Title": "Introduction to Computer Science II",
+        "Credit Hours": "3",
+        "Times": "TTh 11:30a-12:45p",
+        "Professors": "J. Ho"
+    },
+    "7": {
+        "Class Code": "CS 224",
+        "Section #": "1",
+        "Class Title": "Foundations of Computer Science",
+        "Credit Hours": "3",
+        "Times": "TTh 8:30-9:45a",
+        "Professors": "A. Pouriyeh"
+    },
+    "8": {
+        "Class Code": "CS 253",
+        "Section #": "1",
+        "Class Title": "Data Structures and Algorithms",
+        "Credit Hours": "3",
+        "Times": "MW 1-2:15p",
+        "Professors": "L. Zhao"
+    },
+    "9": {
+        "Class Code": "CS 253",
+        "Section #": "2",
+        "Class Title": "Data Structures and Algorithms",
+        "Credit Hours": "3",
+        "Times": "TTh 2:30-3:45p",
+        "Professors": "J. Choi"
+    },
+    "10": {
+        "Class Code": "CS 255",
+        "Section #": "1",
+        "Class Title": "Computer Architecture/Machine Level Programming",
+        "Credit Hours": "3",
+        "Times": "MW 2:30-3:45p",
+        "Professors": "S. Cheung"
+    },
+    "11": {
+        "Class Code": "CS 325",
+        "Section #": "1",
+        "Class Title": "Artificial Intelligence",
+        "Credit Hours": "3",
+        "Times": "MW 1-2:15p",
+        "Professors": "E. Agichtein"
+    },
+    "12": {
+        "Class Code": "CS 325",
+        "Section #": "2",
+        "Class Title": "Artificial Intelligence",
+        "Credit Hours": "3",
+        "Times": "MW 2:30-3:45p",
+        "Professors": "S. La Fleur"
+    },
+    "13": {
+        "Class Code": "CS 326",
+        "Section #": "1",
+        "Class Title": "Analysis of Algorithms",
+        "Credit Hours": "3",
+        "Times": "TTh 1-2:15p",
+        "Professors": "M. Grigni"
+    },
+    "14": {
+        "Class Code": "CS 329",
+        "Section #": "1",
+        "Class Title": "Computational Linguistics",
+        "Credit Hours": "3",
+        "Times": "TTh 1-2:15p",
+        "Professors": "J. Choi"
+    },
+    "15": {
+        "Class Code": "CS 350",
+        "Section #": "1",
+        "Class Title": "Systems Programming",
+        "Credit Hours": "3",
+        "Times": "TTh 11:30a-12:45p",
+        "Professors": "D. Arnold"
+    },
+    "16": {
+        "Class Code": "CS 355",
+        "Section #": "1",
+        "Class Title": "Advanced Computer Architecture",
+        "Credit Hours": "3",
+        "Times": "MW 11:30a-12:45p",
+        "Professors": "S. Cheung"
+    },
+    "17": {
+        "Class Code": "CS 370",
+        "Section #": "1",
+        "Class Title": "Computer Science Practicum",
+        "Credit Hours": "3",
+        "Times": "MW 2:30-3:45p",
+        "Professors": "D. Fossati"
+    },
+    "18": {
+        "Class Code": "CS 370",
+        "Section #": "2",
+        "Class Title": "Computer Science Practicum",
+        "Credit Hours": "3",
+        "Times": "MW 1-2:15p",
+        "Professors": "S. Madamanchi"
+    },
+    "19": {
+        "Class Code": "CS 377",
+        "Section #": "1",
+        "Class Title": "Database Systems",
+        "Credit Hours": "3",
+        "Times": "MW 8:30-9:45a",
+        "Professors": "N. El-Sayed"
+    },
+    "20": {
+        "Class Code": "CS 424",
+        "Section #": "1",
+        "Class Title": "Theory of Computing",
+        "Credit Hours": "3",
+        "Times": "TTh 4-5:15p",
+        "Professors": "M. Grigni"
+    },
+    "21": {
+        "Class Code": "CS 452",
+        "Section #": "1",
+        "Class Title": "Operating Systems",
+        "Credit Hours": "3",
+        "Times": "TTh 2:30-3:45p",
+        "Professors": "K. Mandelberg"
+    },
+    "22": {
+        "Class Code": "CS 453",
+        "Section #": "1",
+        "Class Title": "Computer Security",
+        "Credit Hours": "3",
+        "Times": "TTh 11:30a-12:45p",
+        "Professors": "Y. Vigfusson"
+    },
+    "23": {
+        "Class Code": "CS 470",
+        "Section #": "1",
+        "Class Title": "Data Mining",
+        "Credit Hours": "3",
+        "Times": "MW 4-5:15p",
+        "Professors": "L. Zhao"
+    },
+    "24": {
+        "Class Code": "CS 485",
+        "Section #": "1",
+        "Class Title": "Topics in Computer Science: Human-Computer Interaction",
+        "Credit Hours": "3",
+        "Times": "TTh 10-11:15a",
+        "Professors": "E. Wall"
+    },
+    "25": {
+        "Class Code": "CS 485",
+        "Section #": "2",
+        "Class Title": "Topics in Computer Science: Human-Computer Interaction",
+        "Credit Hours": "3",
+        "Times": "MW 5:30-6:45p",
+        "Professors": "J. Brody"
+    },
+    "26": {
+        "Class Code": "CS 485",
+        "Section #": "1",
+        "Class Title": "Topics in Computer Science: Quantum Computing",
+        "Credit Hours": "3",
+        "Times": "TTh 10-11:15a",
+        "Professors": "E. Wall"
+    },
+    "27": {
+        "Class Code": "CS 485",
+        "Section #": "2",
+        "Class Title": "Topics in Computer Science: Quantum Computing",
+        "Credit Hours": "3",
+        "Times": "MW 5:30-6:45p",
+        "Professors": "J. Brody"
+    },
+    "28": {
+        "Class Code": "CS 495RW",
+        "Section #": "1",
+        "Class Title": "Honors",
+        "Credit Hours": "1-8",
+        "Times": "Does Not Meet",
+        "Professors": "D. Fossati"
+    },
+    "29": {
+        "Class Code": "CS 497R",
+        "Section #": "13",
+        "Class Title": "Directed Research",
+        "Credit Hours": "1-4",
+        "Times": "Meets Online",
+        "Professors": "J. Ho"
+    },
+    "30": {
+        "Class Code": "CS 497R",
+        "Section #": "36",
+        "Class Title": "Directed Research",
+        "Credit Hours": "1-4",
+        "Times": "Does Not Meet",
+        "Professors": "D. Fossati"
+    },
+    "31": {
+        "Class Code": "CS 497R",
+        "Section #": "56",
+        "Class Title": "Directed Research",
+        "Credit Hours": "1-4",
+        "Times": "Does Not Meet",
+        "Professors": "L. Zhao"
+    },
+    "32": {
+        "Class Code": "CS 497R",
+        "Section #": "57",
+        "Class Title": "Directed Research",
+        "Credit Hours": "1-4",
+        "Times": "Does Not Meet",
+        "Professors": "C. Yang"
+    },
+    "33": {
+        "Class Code": "CS 524",
+        "Section #": "1",
+        "Class Title": "Theory Of Computing",
+        "Credit Hours": "3",
+        "Times": "TTh 4-5:15p",
+        "Professors": "M. Grigni"
+    },
+    "34": {
+        "Class Code": "CS 534",
+        "Section #": "1",
+        "Class Title": "Machine Learning",
+        "Credit Hours": "3",
+        "Times": "TTh 3-4:20p",
+        "Professors": "Qin/Pittard"
+    },
+    "35": {
+        "Class Code": "CS 553",
+        "Section #": "1",
+        "Class Title": "Information and Computer Security",
+        "Credit Hours": "3",
+        "Times": "TTh 11:30a-12:45p",
+        "Professors": "Y. Vigfusson"
+    },
+    "36": {
+        "Class Code": "CS 570",
+        "Section #": "1",
+        "Class Title": "Data Mining",
+        "Credit Hours": "3",
+        "Times": "MW 10-11:15a",
+        "Professors": "C. Yang"
+    },
+    "37": {
+        "Class Code": "CS 573",
+        "Section #": "1",
+        "Class Title": "Data Privacy and Security",
+        "Credit Hours": "3",
+        "Times": "MW 1-2:15p",
+        "Professors": "L. Xiong"
+    },
+    "38": {
+        "Class Code": "CS 580",
+        "Section #": "1",
+        "Class Title": "Operating Systems",
+        "Credit Hours": "3",
+        "Times": "TTh 2:30-3:45p",
+        "Professors": "K. Mandelberg"
+    },
+    "39": {
+        "Class Code": "CS 584",
+        "Section #": "1",
+        "Class Title": "Topics In Computer Science: Human-Computer Interaction",
+        "Credit Hours": "3",
+        "Times": "TTh 10-11:15a",
+        "Professors": "E. Wall"
+    },
+    "40": {
+        "Class Code": "CS 590",
+        "Section #": "1",
+        "Class Title": "Teaching Seminar (TATTO Requirement)",
+        "Credit Hours": "1",
+        "Times": "F 2-2:50p",
+        "Professors": "N. El-Sayed"
+    },
+    "41": {
+        "Class Code": "CS 596R",
+        "Section #": "1",
+        "Class Title": "Computer Science Master's Practicum",
+        "Credit Hours": "1",
+        "Times": "Does Not Meet",
+        "Professors": "S. Cheung"
+    },
+    "42": {
+        "Class Code": "CS 597R",
+        "Section #": "1",
+        "Class Title": "Directed Study",
+        "Credit Hours": "1-9",
+        "Times": "Does Not Meet",
+        "Professors": "M. Bhasin"
+    },
+    "43": {
+        "Class Code": "CS 598R",
+        "Section #": "1",
+        "Class Title": "Rotation Project",
+        "Credit Hours": "3",
+        "Times": "Does Not Meet",
+        "Professors": "E. Agichtein"
+    },
+    "44": {
+        "Class Code": "CS 598R",
+        "Section #": "10",
+        "Class Title": "Rotation Project",
+        "Credit Hours": "3",
+        "Times": "Does Not Meet",
+        "Professors": "L. Ruthotto"
+    },
+    "45": {
+        "Class Code": "CS 598R",
+        "Section #": "11",
+        "Class Title": "Rotation Project",
+        "Credit Hours": "3",
+        "Times": "Does Not Meet",
+        "Professors": "R. Sameni"
+    },
+    "46": {
+        "Class Code": "CS 598R",
+        "Section #": "12",
+        "Class Title": "Rotation Project",
+        "Credit Hours": "3",
+        "Times": "Does Not Meet",
+        "Professors": "A. Sarker"
+    },
+    "47": {
+        "Class Code": "CS 598R",
+        "Section #": "13",
+        "Class Title": "Rotation Project",
+        "Credit Hours": "3",
+        "Times": "Does Not Meet",
+        "Professors": "Y. Vigfusson"
+    },
+    "48": {
+        "Class Code": "CS 598R",
+        "Section #": "14",
+        "Class Title": "Rotation Project",
+        "Credit Hours": "3",
+        "Times": "Does Not Meet",
+        "Professors": "E. Wall"
+    },
+    "49": {
+        "Class Code": "CS 598R",
+        "Section #": "15",
+        "Class Title": "Rotation Project",
+        "Credit Hours": "3",
+        "Times": "Does Not Meet",
+        "Professors": "L. Xiong"
+    },
+    "50": {
+        "Class Code": "CS 598R",
+        "Section #": "16",
+        "Class Title": "Rotation Project",
+        "Credit Hours": "3",
+        "Times": "Does Not Meet",
+        "Professors": "C. Yang"
+    },
+    "51": {
+        "Class Code": "CS 598R",
+        "Section #": "17",
+        "Class Title": "Rotation Project",
+        "Credit Hours": "3",
+        "Times": "Does Not Meet",
+        "Professors": "L. Zhao"
+    },
+    "52": {
+        "Class Code": "CS 598R",
+        "Section #": "18",
+        "Class Title": "Rotation Project",
+        "Credit Hours": "3",
+        "Times": "Does Not Meet",
+        "Professors": "X. Yang"
+    },
+    "53": {
+        "Class Code": "CS 598R",
+        "Section #": "19",
+        "Class Title": "Rotation Project",
+        "Credit Hours": "3",
+        "Times": "Does Not Meet",
+        "Professors": "V. Sukhatme"
+    },
+    "54": {
+        "Class Code": "CS 598R",
+        "Section #": "2",
+        "Class Title": "Rotation Project",
+        "Credit Hours": "3",
+        "Times": "Does Not Meet",
+        "Professors": "D. Arnold"
+    },
+    "55": {
+        "Class Code": "CS 598R",
+        "Section #": "20",
+        "Class Title": "Rotation Project",
+        "Credit Hours": "3",
+        "Times": "Does Not Meet",
+        "Professors": "S. Raikar"
+    },
+    "56": {
+        "Class Code": "CS 598R",
+        "Section #": "3",
+        "Class Title": "Rotation Project",
+        "Credit Hours": "3",
+        "Times": "Does Not Meet",
+        "Professors": "M. Bhasin"
+    },
+    "57": {
+        "Class Code": "CS 598R",
+        "Section #": "4",
+        "Class Title": "Rotation Project",
+        "Credit Hours": "3",
+        "Times": "Does Not Meet",
+        "Professors": "J. Choi"
+    },
+    "58": {
+        "Class Code": "CS 598R",
+        "Section #": "5",
+        "Class Title": "Rotation Project",
+        "Credit Hours": "3",
+        "Times": "Does Not Meet",
+        "Professors": "G. Clifford"
+    },
+    "59": {
+        "Class Code": "CS 598R",
+        "Section #": "6",
+        "Class Title": "Rotation Project",
+        "Credit Hours": "3",
+        "Times": "Does Not Meet",
+        "Professors": "J. Ho"
+    },
+    "60": {
+        "Class Code": "CS 598R",
+        "Section #": "7",
+        "Class Title": "Rotation Project",
+        "Credit Hours": "3",
+        "Times": "Does Not Meet",
+        "Professors": "B. Mahmoudi"
+    },
+    "61": {
+        "Class Code": "CS 598R",
+        "Section #": "8",
+        "Class Title": "Rotation Project",
+        "Credit Hours": "3",
+        "Times": "Does Not Meet",
+        "Professors": "Z. Qin"
+    },
+    "62": {
+        "Class Code": "CS 598R",
+        "Section #": "9",
+        "Class Title": "Rotation Project",
+        "Credit Hours": "3",
+        "Times": "Does Not Meet",
+        "Professors": "M. Reyna"
+    },
+    "63": {
+        "Class Code": "CS 599R",
+        "Section #": "1",
+        "Class Title": "Research",
+        "Credit Hours": "1-9",
+        "Times": "Does Not Meet",
+        "Professors": "E. Agichtein"
+    },
+    "64": {
+        "Class Code": "CS 599R",
+        "Section #": "10",
+        "Class Title": "Research",
+        "Credit Hours": "1-9",
+        "Times": "Does Not Meet",
+        "Professors": "Y. Vigfusson"
+    },
+    "65": {
+        "Class Code": "CS 599R",
+        "Section #": "11",
+        "Class Title": "Research",
+        "Credit Hours": "1-9",
+        "Times": "Does Not Meet",
+        "Professors": "E. Wall"
+    },
+    "66": {
+        "Class Code": "CS 599R",
+        "Section #": "12",
+        "Class Title": "Research",
+        "Credit Hours": "1-9",
+        "Times": "Does Not Meet",
+        "Professors": "A. Wildani"
+    },
+    "67": {
+        "Class Code": "CS 599R",
+        "Section #": "13",
+        "Class Title": "Research",
+        "Credit Hours": "1-9",
+        "Times": "Does Not Meet",
+        "Professors": "C. Yang"
+    },
+    "68": {
+        "Class Code": "CS 599R",
+        "Section #": "14",
+        "Class Title": "Research",
+        "Credit Hours": "1-9",
+        "Times": "Does Not Meet",
+        "Professors": "L. Zhao"
+    },
+    "69": {
+        "Class Code": "CS 599R",
+        "Section #": "15",
+        "Class Title": "Research",
+        "Credit Hours": "1-9",
+        "Times": "Does Not Meet",
+        "Professors": "L. Ruthotto"
+    },
+    "70": {
+        "Class Code": "CS 599R",
+        "Section #": "16",
+        "Class Title": "Research",
+        "Credit Hours": "1-9",
+        "Times": "Does Not Meet",
+        "Professors": "H. Wu"
+    },
+    "71": {
+        "Class Code": "CS 599R",
+        "Section #": "17",
+        "Class Title": "Research",
+        "Credit Hours": "1-9",
+        "Times": "Does Not Meet",
+        "Professors": "X. Yang"
+    },
+    "72": {
+        "Class Code": "CS 599R",
+        "Section #": "18",
+        "Class Title": "Research",
+        "Credit Hours": "1-9",
+        "Times": "Does Not Meet",
+        "Professors": "I. Banerjee"
+    },
+    "73": {
+        "Class Code": "CS 599R",
+        "Section #": "2",
+        "Class Title": "Research",
+        "Credit Hours": "1-9",
+        "Times": "Does Not Meet",
+        "Professors": "D. Arnold"
+    },
+    "74": {
+        "Class Code": "CS 599R",
+        "Section #": "3",
+        "Class Title": "Research",
+        "Credit Hours": "1-9",
+        "Times": "Does Not Meet",
+        "Professors": "M. Bhasin"
+    },
+    "75": {
+        "Class Code": "CS 599R",
+        "Section #": "4",
+        "Class Title": "Research",
+        "Credit Hours": "1-9",
+        "Times": "Does Not Meet",
+        "Professors": "J. Choi"
+    },
+    "76": {
+        "Class Code": "CS 599R",
+        "Section #": "5",
+        "Class Title": "Research",
+        "Credit Hours": "1-9",
+        "Times": "Does Not Meet",
+        "Professors": "J. Ho"
+    },
+    "77": {
+        "Class Code": "CS 599R",
+        "Section #": "6",
+        "Class Title": "Research",
+        "Credit Hours": "1-9",
+        "Times": "Does Not Meet",
+        "Professors": "R. Kamaleswaran"
+    },
+    "78": {
+        "Class Code": "CS 599R",
+        "Section #": "7",
+        "Class Title": "Research",
+        "Credit Hours": "1-9",
+        "Times": "Does Not Meet",
+        "Professors": "B. Mahmoudi"
+    },
+    "79": {
+        "Class Code": "CS 599R",
+        "Section #": "8",
+        "Class Title": "Research",
+        "Credit Hours": "1-9",
+        "Times": "Does Not Meet",
+        "Professors": "Z. Qin"
+    },
+    "80": {
+        "Class Code": "CS 599R",
+        "Section #": "9",
+        "Class Title": "Research",
+        "Credit Hours": "1-9",
+        "Times": "Does Not Meet",
+        "Professors": "A. Sarker"
+    },
+    "81": {
+        "Class Code": "CS 700R",
+        "Section #": "1",
+        "Class Title": "Graduate Seminar",
+        "Credit Hours": "1",
+        "Times": "F 10-11a",
+        "Professors": "V. Sunderam"
+    },
+    "82": {
+        "Class Code": "CS 799R",
+        "Section #": "1",
+        "Class Title": "Dissertation Research",
+        "Credit Hours": "Varies",
+        "Times": "F 11a-12p",
+        "Professors": "V. Sunderam"
+    },
+    "83": {
+        "Class Code": "CS 799R",
+        "Section #": "10",
+        "Class Title": "Dissertation Research",
+        "Credit Hours": "Varies",
+        "Times": "Does Not Meet",
+        "Professors": "A. Sarker"
+    },
+    "84": {
+        "Class Code": "CS 799R",
+        "Section #": "11",
+        "Class Title": "Dissertation Research",
+        "Credit Hours": "Varies",
+        "Times": "Does Not Meet",
+        "Professors": "Y. Vigfusson"
+    },
+    "85": {
+        "Class Code": "CS 799R",
+        "Section #": "12",
+        "Class Title": "Dissertation Research",
+        "Credit Hours": "Varies",
+        "Times": "Does Not Meet",
+        "Professors": "E. Wall"
+    },
+    "86": {
+        "Class Code": "CS 799R",
+        "Section #": "13",
+        "Class Title": "Dissertation Research",
+        "Credit Hours": "Varies",
+        "Times": "Does Not Meet",
+        "Professors": "A. Wildani"
+    },
+    "87": {
+        "Class Code": "CS 799R",
+        "Section #": "14",
+        "Class Title": "Dissertation Research",
+        "Credit Hours": "Varies",
+        "Times": "Does Not Meet",
+        "Professors": "C. Yang"
+    },
+    "88": {
+        "Class Code": "CS 799R",
+        "Section #": "15",
+        "Class Title": "Dissertation Research",
+        "Credit Hours": "Varies",
+        "Times": "Does Not Meet",
+        "Professors": "L. Zhao"
+    },
+    "89": {
+        "Class Code": "CS 799R",
+        "Section #": "16",
+        "Class Title": "Dissertation Research",
+        "Credit Hours": "Varies",
+        "Times": "Does Not Meet",
+        "Professors": "L. Ruthotto"
+    },
+    "90": {
+        "Class Code": "CS 799R",
+        "Section #": "17",
+        "Class Title": "Dissertation Research",
+        "Credit Hours": "Varies",
+        "Times": "Does Not Meet",
+        "Professors": "H. Wu"
+    },
+    "91": {
+        "Class Code": "CS 799R",
+        "Section #": "18",
+        "Class Title": "Dissertation Research",
+        "Credit Hours": "Varies",
+        "Times": "Does Not Meet",
+        "Professors": "L. Xiong"
+    },
+    "92": {
+        "Class Code": "CS 799R",
+        "Section #": "19",
+        "Class Title": "Dissertation Research",
+        "Credit Hours": "Varies",
+        "Times": "Does Not Meet",
+        "Professors": "G. Clifford"
+    },
+    "93": {
+        "Class Code": "CS 799R",
+        "Section #": "2",
+        "Class Title": "Dissertation Research",
+        "Credit Hours": "Varies",
+        "Times": "Does Not Meet",
+        "Professors": "E. Agichtein"
+    },
+    "94": {
+        "Class Code": "CS 799R",
+        "Section #": "20",
+        "Class Title": "Dissertation Research",
+        "Credit Hours": "Varies",
+        "Times": "Does Not Meet",
+        "Professors": "V. Sunderam"
+    },
+    "95": {
+        "Class Code": "CS 799R",
+        "Section #": "21",
+        "Class Title": "Dissertation Research",
+        "Credit Hours": "Varies",
+        "Times": "Does Not Meet",
+        "Professors": "I. Banerjee"
+    },
+    "96": {
+        "Class Code": "CS 799R",
+        "Section #": "3",
+        "Class Title": "Dissertation Research",
+        "Credit Hours": "Varies",
+        "Times": "Does Not Meet",
+        "Professors": "D. Arnold"
+    },
+    "97": {
+        "Class Code": "CS 799R",
+        "Section #": "4",
+        "Class Title": "Dissertation Research",
+        "Credit Hours": "Varies",
+        "Times": "Does Not Meet",
+        "Professors": "M. Bhasin"
+    },
+    "98": {
+        "Class Code": "CS 799R",
+        "Section #": "5",
+        "Class Title": "Dissertation Research",
+        "Credit Hours": "Varies",
+        "Times": "Does Not Meet",
+        "Professors": "J. Choi"
+    },
+    "99": {
+        "Class Code": "CS 799R",
+        "Section #": "6",
+        "Class Title": "Dissertation Research",
+        "Credit Hours": "Varies",
+        "Times": "Does Not Meet",
+        "Professors": "J. Ho"
+    },
+    "100": {
+        "Class Code": "CS 799R",
+        "Section #": "7",
+        "Class Title": "Dissertation Research",
+        "Credit Hours": "Varies",
+        "Times": "Does Not Meet",
+        "Professors": "R. Kamaleswaran"
+    },
+    "101": {
+        "Class Code": "CS 799R",
+        "Section #": "8",
+        "Class Title": "Dissertation Research",
+        "Credit Hours": "Varies",
+        "Times": "Does Not Meet",
+        "Professors": "B. Mahmoudi"
+    },
+    "102": {
+        "Class Code": "CS 799R",
+        "Section #": "9",
+        "Class Title": "Dissertation Research",
+        "Credit Hours": "Varies",
+        "Times": "Does Not Meet",
+        "Professors": "Z. Qin"
+    },
+    "103": {
+        "Class Code": "CS_OX 170Q",
+        "Section #": "1",
+        "Class Title": "Introduction To Computer Science I w/Laboratory",
+        "Credit Hours": "4",
+        "Times": "TTh 8:30-9:45a",
+        "Professors": "T. Li"
+    },
+    "104": {
+        "Class Code": "CS_OX 170Q",
+        "Section #": "2",
+        "Class Title": "Introduction To Computer Science I w/Laboratory",
+        "Credit Hours": "4",
+        "Times": "TTh 10-11:15a",
+        "Professors": "T. Li"
+    },
+    "105": {
+        "Class Code": "CS_OX 170Q",
+        "Section #": "3",
+        "Class Title": "Introduction To Computer Science I w/Laboratory",
+        "Credit Hours": "4",
+        "Times": "F 8:30-9:20a",
+        "Professors": "T. Li"
+    },
+    "106": {
+        "Class Code": "CS_OX 170Q",
+        "Section #": "4",
+        "Class Title": "Introduction To Computer Science I w/Laboratory",
+        "Credit Hours": "4",
+        "Times": "F 10-10:50a",
+        "Professors": "T. Li"
+    },
+    "107": {
+        "Class Code": "CS_OX 170Q",
+        "Section #": "5",
+        "Class Title": "Introduction To Computer Science I w/Laboratory",
+        "Credit Hours": "4",
+        "Times": "Does Not Meet",
+        "Professors": "T. Li"
+    },
+    "108": {
+        "Class Code": "CS_OX 170Q",
+        "Section #": "6",
+        "Class Title": "Introduction To Computer Science I w/Laboratory",
+        "Credit Hours": "4",
+        "Times": "Does Not Meet",
+        "Professors": "T. Li"
+    },
+    "109": {
+        "Class Code": "CS_OX 171",
+        "Section #": "1",
+        "Class Title": "Introduction to Computer Science II",
+        "Credit Hours": "3",
+        "Times": "TTh 1-2:15p",
+        "Professors": "P. Oser"
+    },
+    "110": {
+        "Class Code": "CS_OX 224",
+        "Section #": "1",
+        "Class Title": "Mathematical Foundation of Computer Science",
+        "Credit Hours": "3",
+        "Times": "TTh 2:30-3:45p",
+        "Professors": "J. Hulgan"
+    },
+    "111": {
+        "Class Code": "CS_OX 253",
+        "Section #": "1",
+        "Class Title": "Data Structures and Algorithms",
+        "Credit Hours": "3",
+        "Times": "TTh 1-2:15p",
+        "Professors": "T. Li"
+    },
+    "112": {
+        "Class Code": "CS_OX 297R",
+        "Section #": "1",
+        "Class Title": "Directed Study",
+        "Credit Hours": "1",
+        "Times": "Does Not Meet",
+        "Professors": "T. Li"
+    }
+}

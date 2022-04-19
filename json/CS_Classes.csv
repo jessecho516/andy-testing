@@ -1,0 +1,113 @@
+Class Code, Section #, Class Title, Credit Hours, Times, Professors
+CS 170,1,Introduction To Computer Science I,4,MW 5:30-6:45p; F 8-8:50a,D. Fossati
+CS 170,2,Introduction To Computer Science I,4,MW 5:30-6:45p; F 9-9:50a,D. Fossati
+CS 170,3,Introduction To Computer Science I,4,MW 5:30-6:45p; F 3-3:50p,D. Fossati
+CS 170,4,Introduction To Computer Science I,4,MW 5:30-6:45p; F 4-4:50p,D. Fossati
+CS 171,1,Introduction to Computer Science II,3,MW 11:30a-12:45p,A. Julian
+CS 171,2,Introduction to Computer Science II,3,TTh 11:30a-12:45p,J. Ho
+CS 224,1,Foundations of Computer Science,3,TTh 8:30-9:45a,A. Pouriyeh
+CS 253,1,Data Structures and Algorithms,3,MW 1-2:15p,L. Zhao
+CS 253,2,Data Structures and Algorithms,3,TTh 2:30-3:45p,J. Choi
+CS 255,1,Computer Architecture/Machine Level Programming,3,MW 2:30-3:45p,S. Cheung
+CS 325,1,Artificial Intelligence,3,MW 1-2:15p,E. Agichtein
+CS 325,2,Artificial Intelligence,3,MW 2:30-3:45p,S. La Fleur
+CS 326,1,Analysis of Algorithms,3,TTh 1-2:15p,M. Grigni
+CS 329,1,Computational Linguistics,3,TTh 1-2:15p,J. Choi
+CS 350,1,Systems Programming,3,TTh 11:30a-12:45p,D. Arnold
+CS 355,1,Advanced Computer Architecture,3,MW 11:30a-12:45p,S. Cheung
+CS 370,1,Computer Science Practicum,3,MW 2:30-3:45p,D. Fossati
+CS 370,2,Computer Science Practicum,3,MW 1-2:15p,S. Madamanchi
+CS 377,1,Database Systems,3,MW 8:30-9:45a,N. El-Sayed
+CS 424,1,Theory of Computing,3,TTh 4-5:15p,M. Grigni
+CS 452,1,Operating Systems,3,TTh 2:30-3:45p,K. Mandelberg
+CS 453,1,Computer Security,3,TTh 11:30a-12:45p,Y. Vigfusson
+CS 470,1,Data Mining,3,MW 4-5:15p,L. Zhao
+CS 485,1,Topics in Computer Science: Human-Computer Interaction,3,TTh 10-11:15a,E. Wall
+CS 485,2,Topics in Computer Science: Human-Computer Interaction,3,MW 5:30-6:45p,J. Brody
+CS 485,1,Topics in Computer Science: Quantum Computing,3,TTh 10-11:15a,E. Wall
+CS 485,2,Topics in Computer Science: Quantum Computing,3,MW 5:30-6:45p,J. Brody
+CS 495RW,1,Honors,1-8,Does Not Meet,D. Fossati
+CS 497R,13,Directed Research,1-4,Meets Online,J. Ho
+CS 497R,36,Directed Research,1-4,Does Not Meet,D. Fossati
+CS 497R,56,Directed Research,1-4,Does Not Meet,L. Zhao
+CS 497R,57,Directed Research,1-4,Does Not Meet,C. Yang
+CS 524,1,Theory Of Computing,3,TTh 4-5:15p,M. Grigni
+CS 534,1,Machine Learning,3,TTh 3-4:20p,Qin/Pittard
+CS 553,1,Information and Computer Security,3,TTh 11:30a-12:45p,Y. Vigfusson
+CS 570,1,Data Mining,3,MW 10-11:15a,C. Yang
+CS 573,1,Data Privacy and Security,3,MW 1-2:15p,L. Xiong
+CS 580,1,Operating Systems,3,TTh 2:30-3:45p,K. Mandelberg
+CS 584,1,Topics In Computer Science: Human-Computer Interaction,3,TTh 10-11:15a,E. Wall
+CS 590,1,Teaching Seminar (TATTO Requirement),1,F 2-2:50p,N. El-Sayed
+CS 596R,1,Computer Science Master's Practicum,1,Does Not Meet,S. Cheung
+CS 597R,1,Directed Study,1-9,Does Not Meet,M. Bhasin
+CS 598R,1,Rotation Project,3,Does Not Meet,E. Agichtein
+CS 598R,10,Rotation Project,3,Does Not Meet,L. Ruthotto
+CS 598R,11,Rotation Project,3,Does Not Meet,R. Sameni
+CS 598R,12,Rotation Project,3,Does Not Meet,A. Sarker
+CS 598R,13,Rotation Project,3,Does Not Meet,Y. Vigfusson
+CS 598R,14,Rotation Project,3,Does Not Meet,E. Wall
+CS 598R,15,Rotation Project,3,Does Not Meet,L. Xiong
+CS 598R,16,Rotation Project,3,Does Not Meet,C. Yang
+CS 598R,17,Rotation Project,3,Does Not Meet,L. Zhao
+CS 598R,18,Rotation Project,3,Does Not Meet,X. Yang
+CS 598R,19,Rotation Project,3,Does Not Meet,V. Sukhatme
+CS 598R,2,Rotation Project,3,Does Not Meet,D. Arnold
+CS 598R,20,Rotation Project,3,Does Not Meet,S. Raikar
+CS 598R,3,Rotation Project,3,Does Not Meet,M. Bhasin
+CS 598R,4,Rotation Project,3,Does Not Meet,J. Choi
+CS 598R,5,Rotation Project,3,Does Not Meet,G. Clifford
+CS 598R,6,Rotation Project,3,Does Not Meet,J. Ho
+CS 598R,7,Rotation Project,3,Does Not Meet,B. Mahmoudi
+CS 598R,8,Rotation Project,3,Does Not Meet,Z. Qin
+CS 598R,9,Rotation Project,3,Does Not Meet,M. Reyna
+CS 599R,1,Research,1-9,Does Not Meet,E. Agichtein
+CS 599R,10,Research,1-9,Does Not Meet,Y. Vigfusson
+CS 599R,11,Research,1-9,Does Not Meet,E. Wall
+CS 599R,12,Research,1-9,Does Not Meet,A. Wildani
+CS 599R,13,Research,1-9,Does Not Meet,C. Yang
+CS 599R,14,Research,1-9,Does Not Meet,L. Zhao
+CS 599R,15,Research,1-9,Does Not Meet,L. Ruthotto
+CS 599R,16,Research,1-9,Does Not Meet,H. Wu
+CS 599R,17,Research,1-9,Does Not Meet,X. Yang
+CS 599R,18,Research,1-9,Does Not Meet,I. Banerjee
+CS 599R,2,Research,1-9,Does Not Meet,D. Arnold
+CS 599R,3,Research,1-9,Does Not Meet,M. Bhasin
+CS 599R,4,Research,1-9,Does Not Meet,J. Choi
+CS 599R,5,Research,1-9,Does Not Meet,J. Ho
+CS 599R,6,Research,1-9,Does Not Meet,R. Kamaleswaran
+CS 599R,7,Research,1-9,Does Not Meet,B. Mahmoudi
+CS 599R,8,Research,1-9,Does Not Meet,Z. Qin
+CS 599R,9,Research,1-9,Does Not Meet,A. Sarker
+CS 700R,1,Graduate Seminar,1,F 10-11a,V. Sunderam
+CS 799R,1,Dissertation Research,Varies,F 11a-12p,V. Sunderam
+CS 799R,10,Dissertation Research,Varies,Does Not Meet,A. Sarker
+CS 799R,11,Dissertation Research,Varies,Does Not Meet,Y. Vigfusson
+CS 799R,12,Dissertation Research,Varies,Does Not Meet,E. Wall
+CS 799R,13,Dissertation Research,Varies,Does Not Meet,A. Wildani
+CS 799R,14,Dissertation Research,Varies,Does Not Meet,C. Yang
+CS 799R,15,Dissertation Research,Varies,Does Not Meet,L. Zhao
+CS 799R,16,Dissertation Research,Varies,Does Not Meet,L. Ruthotto
+CS 799R,17,Dissertation Research,Varies,Does Not Meet,H. Wu
+CS 799R,18,Dissertation Research,Varies,Does Not Meet,L. Xiong
+CS 799R,19,Dissertation Research,Varies,Does Not Meet,G. Clifford
+CS 799R,2,Dissertation Research,Varies,Does Not Meet,E. Agichtein
+CS 799R,20,Dissertation Research,Varies,Does Not Meet,V. Sunderam
+CS 799R,21,Dissertation Research,Varies,Does Not Meet,I. Banerjee
+CS 799R,3,Dissertation Research,Varies,Does Not Meet,D. Arnold
+CS 799R,4,Dissertation Research,Varies,Does Not Meet,M. Bhasin
+CS 799R,5,Dissertation Research,Varies,Does Not Meet,J. Choi
+CS 799R,6,Dissertation Research,Varies,Does Not Meet,J. Ho
+CS 799R,7,Dissertation Research,Varies,Does Not Meet,R. Kamaleswaran
+CS 799R,8,Dissertation Research,Varies,Does Not Meet,B. Mahmoudi
+CS 799R,9,Dissertation Research,Varies,Does Not Meet,Z. Qin
+CS_OX 170Q,1,Introduction To Computer Science I w/Laboratory,4,TTh 8:30-9:45a,T. Li
+CS_OX 170Q,2,Introduction To Computer Science I w/Laboratory,4,TTh 10-11:15a,T. Li
+CS_OX 170Q,3,Introduction To Computer Science I w/Laboratory,4,F 8:30-9:20a,T. Li
+CS_OX 170Q,4,Introduction To Computer Science I w/Laboratory,4,F 10-10:50a,T. Li
+CS_OX 170Q,5,Introduction To Computer Science I w/Laboratory,4,Does Not Meet,T. Li
+CS_OX 170Q,6,Introduction To Computer Science I w/Laboratory,4,Does Not Meet,T. Li
+CS_OX 171,1,Introduction to Computer Science II,3,TTh 1-2:15p,P. Oser
+CS_OX 224,1,Mathematical Foundation of Computer Science,3,TTh 2:30-3:45p,J. Hulgan
+CS_OX 253,1,Data Structures and Algorithms,3,TTh 1-2:15p,T. Li
+CS_OX 297R,1,Directed Study,1,Does Not Meet,T. Li
