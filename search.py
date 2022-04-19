@@ -20,3 +20,8 @@ def search_class(prefix, class_list):
         if class_name.upper().startswith(prefix.upper()):
             results.append(curr)
     return results
+
+def filter_search(searched):
+    class_list = make_class_list("/Users/andykim_1/pushin-p3/pushin-pp/website/json/classes.json")
+    results = search_class(searched, class_list)
+    return results

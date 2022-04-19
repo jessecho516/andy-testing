@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request
 from webforms import SearchForm
-from search import make_class_list, search_class
-
+from search import filter_search
 app = Flask(__name__)
 
 @app.route('/')
@@ -32,13 +31,8 @@ def search():
         form = SearchForm()
         searched = form.searched.data
         filtered = filter_search(searched)
-        print(filtered)
         return render_template("search.html", searched=searched, form = form, filtered = filtered)
 
-def filter_search(searched):
-    class_list = make_class_list("/Users/andykim_1/pushin-p3/pushin-pp/website/json/classes.json")
-    results = search_class(searched, class_list)
-    return results
 
 if __name__ == '__main__':
     app.run(threaded=True, port=5000)
