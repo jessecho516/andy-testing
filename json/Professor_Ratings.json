@@ -1,0 +1,230 @@
+{
+    "S. Madamanchi": {
+        "Department": "Computer Science",
+        "Quality": "5",
+        "Level of Difficulty": "1",
+        "Would Take Again": "100%"
+    },
+    "E. Agichtein": {
+        "Department": "Computer Science",
+        "Quality": "3.5",
+        "Level of Difficulty": "4.2",
+        "Would Take Again": "50%"
+    },
+    "P. Hutto": {
+        "Department": "Computer Science",
+        "Quality": "4.7",
+        "Level of Difficulty": "2.3",
+        "Would Take Again": "N/A"
+    },
+    "J. Slawinski": {
+        "Department": "Computer Science",
+        "Quality": "2",
+        "Level of Difficulty": "1.7",
+        "Would Take Again": "N/A"
+    },
+    "V. Summet": {
+        "Department": "Computer Science",
+        "Quality": "4",
+        "Level of Difficulty": "3",
+        "Would Take Again": "67%"
+    },
+    "S. Yuan": {
+        "Department": "Computer Science",
+        "Quality": "N/A",
+        "Level of Difficulty": "N/A",
+        "Would Take Again": "N/A"
+    },
+    "L. Bonomi": {
+        "Department": "Computer Science",
+        "Quality": "2.7",
+        "Level of Difficulty": "3.3",
+        "Would Take Again": "N/A"
+    },
+    "S. Zheng": {
+        "Department": "Computer Science",
+        "Quality": "1",
+        "Level of Difficulty": "5",
+        "Would Take Again": "N/A"
+    },
+    "A. Doloc-Mihu": {
+        "Department": "Computer Science",
+        "Quality": "3.6",
+        "Level of Difficulty": "3.4",
+        "Would Take Again": "72%"
+    },
+    "T. Xu": {
+        "Department": "Computer Science",
+        "Quality": "5",
+        "Level of Difficulty": "1",
+        "Would Take Again": "N/A"
+    },
+    "C. G\u00fcnay": {
+        "Department": "Computer Science",
+        "Quality": "N/A",
+        "Level of Difficulty": "N/A",
+        "Would Take Again": "N/A"
+    },
+    "Y. Agichtein": {
+        "Department": "Computer Science",
+        "Quality": "N/A",
+        "Level of Difficulty": "N/A",
+        "Would Take Again": "N/A"
+    },
+    "W. Kay": {
+        "Department": "Computer Science",
+        "Quality": "4",
+        "Level of Difficulty": "3",
+        "Would Take Again": "100%"
+    },
+    "S. Nemati": {
+        "Department": "Computer Science",
+        "Quality": "3",
+        "Level of Difficulty": "3",
+        "Would Take Again": "50%"
+    },
+    "N. Hashemi": {
+        "Department": "Computer Science",
+        "Quality": "4.4",
+        "Level of Difficulty": "3.2",
+        "Would Take Again": "89%"
+    },
+    "T. Sun": {
+        "Department": "Computer Science",
+        "Quality": "1.7",
+        "Level of Difficulty": "4.6",
+        "Would Take Again": "0%"
+    },
+    "Y. Park": {
+        "Department": "Computer Science",
+        "Quality": "N/A",
+        "Level of Difficulty": "N/A",
+        "Would Take Again": "N/A"
+    },
+    "A. Julian": {
+        "Department": "Computer Science",
+        "Quality": "5",
+        "Level of Difficulty": "2.5",
+        "Would Take Again": "100%"
+    },
+    "D. Arnold": {
+        "Department": "Computer Science",
+        "Quality": "2",
+        "Level of Difficulty": "4.4",
+        "Would Take Again": "30%"
+    },
+    "S. Voghoei": {
+        "Department": "Computer Science",
+        "Quality": "1.5",
+        "Level of Difficulty": "3.7",
+        "Would Take Again": "15%"
+    },
+    "N. El-Sayed": {
+        "Department": "Computer Science",
+        "Quality": "4.4",
+        "Level of Difficulty": "3.3",
+        "Would Take Again": "77%"
+    },
+    "V. Seshagiri": {
+        "Department": "Computer Science",
+        "Quality": "5",
+        "Level of Difficulty": "1",
+        "Would Take Again": "100%"
+    },
+    "L. Xiong": {
+        "Department": "Computer Science",
+        "Quality": "5",
+        "Level of Difficulty": "3.7",
+        "Would Take Again": "100%"
+    },
+    "K. Mandelberg": {
+        "Department": "Computer Science",
+        "Quality": "2.2",
+        "Level of Difficulty": "3.7",
+        "Would Take Again": "0%"
+    },
+    "I. Banerjee": {
+        "Department": "Computer Science",
+        "Quality": "3",
+        "Level of Difficulty": "4",
+        "Would Take Again": "0%"
+    },
+    "J. Lu": {
+        "Department": "Computer Science",
+        "Quality": "5",
+        "Level of Difficulty": "3.5",
+        "Would Take Again": "100%"
+    },
+    "M. Grigni": {
+        "Department": "Computer Science",
+        "Quality": "3.9",
+        "Level of Difficulty": "3.7",
+        "Would Take Again": "100%"
+    },
+    "A. Wildani": {
+        "Department": "Computer Science",
+        "Quality": "2.6",
+        "Level of Difficulty": "4",
+        "Would Take Again": "37%"
+    },
+    "V. Sunderam": {
+        "Department": "Computer Science",
+        "Quality": "3.7",
+        "Level of Difficulty": "3.2",
+        "Would Take Again": "63%"
+    },
+    "S. Yan": {
+        "Department": "Computer Science",
+        "Quality": "4.4",
+        "Level of Difficulty": "3.2",
+        "Would Take Again": "94%"
+    },
+    "L. Zhao": {
+        "Department": "Computer Science",
+        "Quality": "3",
+        "Level of Difficulty": "3",
+        "Would Take Again": "67%"
+    },
+    "J. Ho": {
+        "Department": "Computer Science",
+        "Quality": "4.7",
+        "Level of Difficulty": "3.7",
+        "Would Take Again": "100%"
+    },
+    "D. Fossati": {
+        "Department": "Computer Science",
+        "Quality": "3.6",
+        "Level of Difficulty": "4.3",
+        "Would Take Again": "64%"
+    },
+    "S. La": {
+        "Department": "Computer Science",
+        "Quality": "2.4",
+        "Level of Difficulty": "3.7",
+        "Would Take Again": "31%"
+    },
+    "C. Yang": {
+        "Department": "Computer Science",
+        "Quality": "3.5",
+        "Level of Difficulty": "3.9",
+        "Would Take Again": "60%"
+    },
+    "A. Pouriyeh": {
+        "Department": "Computer Science",
+        "Quality": "3",
+        "Level of Difficulty": "3",
+        "Would Take Again": "67%"
+    },
+    "Y. Vigfusson": {
+        "Department": "Computer Science",
+        "Quality": "4.5",
+        "Level of Difficulty": "3.7",
+        "Would Take Again": "100%"
+    },
+    "J. Choi": {
+        "Department": "Computer Science",
+        "Quality": "4.3",
+        "Level of Difficulty": "3.9",
+        "Would Take Again": "50%"
+    }
+}

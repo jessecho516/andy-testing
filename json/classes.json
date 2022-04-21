@@ -3,6 +3,7 @@
         "Class Title": "Introduction To Computer Science I",
         "Credit Hours": "4",
         "Class Rating": "5.0",
+        "Professors": "D. Fossati",
         "Sections": [
             {
                 "Section Number": "1",
@@ -26,6 +27,7 @@
         "Class Title": "Introduction to Computer Science II",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "A. Julian",
         "Sections": [
             {
                 "Section Number": "1",
@@ -41,6 +43,7 @@
         "Class Title": "Foundations of Computer Science",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "A. Pouriyeh",
         "Sections": [
             {
                 "Section Number": "1",
@@ -52,6 +55,7 @@
         "Class Title": "Data Structures and Algorithms",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "L. Zhao",
         "Sections": [
             {
                 "Section Number": "1",
@@ -67,6 +71,7 @@
         "Class Title": "Computer Architecture/Machine Level Programming",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "S. Cheung",
         "Sections": [
             {
                 "Section Number": "1",
@@ -78,6 +83,7 @@
         "Class Title": "Artificial Intelligence",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "E. Agichtein",
         "Sections": [
             {
                 "Section Number": "1",
@@ -93,6 +99,7 @@
         "Class Title": "Analysis of Algorithms",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "M. Grigni",
         "Sections": [
             {
                 "Section Number": "1",
@@ -104,6 +111,7 @@
         "Class Title": "Computational Linguistics",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "J. Choi",
         "Sections": [
             {
                 "Section Number": "1",
@@ -115,6 +123,7 @@
         "Class Title": "Systems Programming",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "D. Arnold",
         "Sections": [
             {
                 "Section Number": "1",
@@ -126,6 +135,7 @@
         "Class Title": "Advanced Computer Architecture",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "S. Cheung",
         "Sections": [
             {
                 "Section Number": "1",
@@ -137,6 +147,7 @@
         "Class Title": "Computer Science Practicum",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "D. Fossati",
         "Sections": [
             {
                 "Section Number": "1",
@@ -152,6 +163,7 @@
         "Class Title": "Database Systems",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "N. El-Sayed",
         "Sections": [
             {
                 "Section Number": "1",
@@ -163,6 +175,7 @@
         "Class Title": "Theory of Computing",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "M. Grigni",
         "Sections": [
             {
                 "Section Number": "1",
@@ -174,6 +187,7 @@
         "Class Title": "Operating Systems",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "K. Mandelberg",
         "Sections": [
             {
                 "Section Number": "1",
@@ -185,6 +199,7 @@
         "Class Title": "Computer Security",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "Y. Vigfusson",
         "Sections": [
             {
                 "Section Number": "1",
@@ -196,6 +211,7 @@
         "Class Title": "Data Mining",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "L. Zhao",
         "Sections": [
             {
                 "Section Number": "1",
@@ -207,6 +223,7 @@
         "Class Title": "Topics in Computer Science: Human-Computer Interaction",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "E. Wall",
         "Sections": [
             {
                 "Section Number": "1",
@@ -230,6 +247,7 @@
         "Class Title": "Honors",
         "Credit Hours": "1-8",
         "Class Rating": "5.0",
+        "Professors": "D. Fossati",
         "Sections": [
             {
                 "Section Number": "1",
@@ -241,6 +259,7 @@
         "Class Title": "Directed Research",
         "Credit Hours": "1-4",
         "Class Rating": "5.0",
+        "Professors": "J. Ho",
         "Sections": [
             {
                 "Section Number": "13",
@@ -264,6 +283,7 @@
         "Class Title": "Theory Of Computing",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "M. Grigni",
         "Sections": [
             {
                 "Section Number": "1",
@@ -275,6 +295,7 @@
         "Class Title": "Machine Learning",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "Qin/Pittard",
         "Sections": [
             {
                 "Section Number": "1",
@@ -286,6 +307,7 @@
         "Class Title": "Information and Computer Security",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "Y. Vigfusson",
         "Sections": [
             {
                 "Section Number": "1",
@@ -297,6 +319,7 @@
         "Class Title": "Data Mining",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "C. Yang",
         "Sections": [
             {
                 "Section Number": "1",
@@ -308,6 +331,7 @@
         "Class Title": "Data Privacy and Security",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "L. Xiong",
         "Sections": [
             {
                 "Section Number": "1",
@@ -319,6 +343,7 @@
         "Class Title": "Operating Systems",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "K. Mandelberg",
         "Sections": [
             {
                 "Section Number": "1",
@@ -330,6 +355,7 @@
         "Class Title": "Topics In Computer Science: Human-Computer Interaction",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "E. Wall",
         "Sections": [
             {
                 "Section Number": "1",
@@ -341,6 +367,7 @@
         "Class Title": "Teaching Seminar (TATTO Requirement)",
         "Credit Hours": "1",
         "Class Rating": "5.0",
+        "Professors": "N. El-Sayed",
         "Sections": [
             {
                 "Section Number": "1",
@@ -352,6 +379,7 @@
         "Class Title": "Computer Science Master's Practicum",
         "Credit Hours": "1",
         "Class Rating": "5.0",
+        "Professors": "S. Cheung",
         "Sections": [
             {
                 "Section Number": "1",
@@ -363,6 +391,7 @@
         "Class Title": "Directed Study",
         "Credit Hours": "1-9",
         "Class Rating": "5.0",
+        "Professors": "M. Bhasin",
         "Sections": [
             {
                 "Section Number": "1",
@@ -374,6 +403,7 @@
         "Class Title": "Rotation Project",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "E. Agichtein",
         "Sections": [
             {
                 "Section Number": "1",
@@ -461,6 +491,7 @@
         "Class Title": "Research",
         "Credit Hours": "1-9",
         "Class Rating": "5.0",
+        "Professors": "E. Agichtein",
         "Sections": [
             {
                 "Section Number": "1",
@@ -540,6 +571,7 @@
         "Class Title": "Graduate Seminar",
         "Credit Hours": "1",
         "Class Rating": "5.0",
+        "Professors": "V. Sunderam",
         "Sections": [
             {
                 "Section Number": "1",
@@ -551,6 +583,7 @@
         "Class Title": "Dissertation Research",
         "Credit Hours": "Varies",
         "Class Rating": "5.0",
+        "Professors": "V. Sunderam",
         "Sections": [
             {
                 "Section Number": "1",
@@ -642,6 +675,7 @@
         "Class Title": "Introduction To Computer Science I w/Laboratory",
         "Credit Hours": "4",
         "Class Rating": "5.0",
+        "Professors": "T. Li",
         "Sections": [
             {
                 "Section Number": "1",
@@ -673,6 +707,7 @@
         "Class Title": "Introduction to Computer Science II",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "P. Oser",
         "Sections": [
             {
                 "Section Number": "1",
@@ -684,6 +719,7 @@
         "Class Title": "Mathematical Foundation of Computer Science",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "J. Hulgan",
         "Sections": [
             {
                 "Section Number": "1",
@@ -695,6 +731,7 @@
         "Class Title": "Data Structures and Algorithms",
         "Credit Hours": "3",
         "Class Rating": "5.0",
+        "Professors": "T. Li",
         "Sections": [
             {
                 "Section Number": "1",
@@ -706,6 +743,7 @@
         "Class Title": "Directed Study",
         "Credit Hours": "1",
         "Class Rating": "5.0",
+        "Professors": "T. Li",
         "Sections": [
             {
                 "Section Number": "1",
