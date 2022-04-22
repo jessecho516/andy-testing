@@ -23,16 +23,9 @@
             <div id="navbarNav" class="collapse navbar-collapse">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="{{ url_for('index') }}">Home</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="{{ url_for('login') }}">Login</a></li>
-                    <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Search
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Classes</a></li>
-                            <li><a class="dropdown-item" href="#">Professors</a></li>
-                            </ul>
                     <li class="nav-item"><a class="nav-link" href="{{ url_for('about') }}">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="{{ url_for('login') }}">Login</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/logout">Logout</a></li>
                 </ul>
             </div>
         </div>
