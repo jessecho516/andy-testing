@@ -31,36 +31,36 @@ oauth.register(
 )
 
 db_name = "database.db"
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///" + db_name
+# app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///" + db_name
 app.config["SECRET_KEY"] = "abcde"
 
-db = SQLAlchemy(app)
+# db = SQLAlchemy(app)
 
-class Users(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(100), nullable=False)
-    email = db.Column(db.String(120), nullable=False, unique=True)
-    date_added = db.Column(db.DateTime, default=datetime.utcnow)
+# class Users(db.Model):
+#     id = db.Column(db.Integer, primary_key=True)
+#     name = db.Column(db.String(100), nullable=False)
+#     email = db.Column(db.String(120), nullable=False, unique=True)
+#     date_added = db.Column(db.DateTime, default=datetime.utcnow)
 
-    def __repr__(self):
-        return "<Name %r>" % self.name
+#     def __repr__(self):
+#         return "<Name %r>" % self.name
 
 class UserForm(FlaskForm):
     name = StringField("Name", validators=[DataRequired()])
     email = StringField("Email", validators=[DataRequired()])
     submit = SubmitField("Submit")
 
-class Calendars(db.Model):
-    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), primary_key=True)
-    classes = db.relationship("Courses")
+# class Calendars(db.Model):
+#     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), primary_key=True)
+#     classes = db.relationship("Courses")
 
-class Courses(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    class_code = db.Column(db.String(100), unique=True)
-    class_title = db.Column(db.String(150), unique=True)
-    credit_hours = db.Column(db.Integer)
-    times = db.Column(db.String(100)) 
-    professor_name = db.Column(db.String(100))
+# class Courses(db.Model):
+#     id = db.Column(db.Integer, primary_key=True)
+#     class_code = db.Column(db.String(100), unique=True)
+#     class_title = db.Column(db.String(150), unique=True)
+#     credit_hours = db.Column(db.Integer)
+#     times = db.Column(db.String(100)) 
+#     professor_name = db.Column(db.String(100))
 
 
 
