@@ -31,38 +31,28 @@ oauth.register(
 )
 
 db_name = "database.db"
-# app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///" + db_name
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///" + db_name
 app.config["SECRET_KEY"] = "abcde"
 
-# db = SQLAlchemy(app)
+db = SQLAlchemy(app)
 
-# class Users(db.Model):
-#     id = db.Column(db.Integer, primary_key=True)
-#     name = db.Column(db.String(100), nullable=False)
-#     email = db.Column(db.String(120), nullable=False, unique=True)
-#     date_added = db.Column(db.DateTime, default=datetime.utcnow)
+class Users(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), nullable=False)
+    email = db.Column(db.String(120), nullable=False, unique=True)
+    date_added = db.Column(db.DateTime, default=datetime.utcnow)
+    classes = db.relationship("Courses")
 
-#     def __repr__(self):
-#         return "<Name %r>" % self.name
+    def __repr__(self):
+        return "<Name %r>" % self.name
 
-class UserForm(FlaskForm):
-    name = StringField("Name", validators=[DataRequired()])
-    email = StringField("Email", validators=[DataRequired()])
-    submit = SubmitField("Submit")
-
-# class Calendars(db.Model):
-#     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), primary_key=True)
-#     classes = db.relationship("Courses")
-
-# class Courses(db.Model):
-#     id = db.Column(db.Integer, primary_key=True)
-#     class_code = db.Column(db.String(100), unique=True)
-#     class_title = db.Column(db.String(150), unique=True)
-#     credit_hours = db.Column(db.Integer)
-#     times = db.Column(db.String(100)) 
-#     professor_name = db.Column(db.String(100))
-
-
+class Courses(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    class_code = db.Column(db.String(100), unique=True)
+    class_title = db.Column(db.String(150), unique=True)
+    credit_hours = db.Column(db.Integer)
+    times = db.Column(db.String(100)) 
+    professor_name = db.Column(db.String(100))
 
 
 @app.route('/')
@@ -85,8 +75,23 @@ def login():
 
 @app.route("/callback", methods=["GET", "POST"])
 def callback():
+    # if "user" in session:
+    #     print(session["user"])
     token = oauth.auth0.authorize_access_token()
     session["user"] = token
+
+    email = session["user"]["userinfo"]["email"]
+    full_name = session["user"]["userinfo"]["name"]
+
+    user = Users.query.filter_by(email=email).first()
+    if not user:
+        user = Users(name=full_name, email=email)
+        db.session.add(user)
+        db.session.commit()
+        print("user added to db.")
+    else:
+        print("user found in db.")
+
     return redirect("/")
 
 @app.route("/logout")
@@ -116,9 +121,22 @@ def search():
     if request.method == "POST":
         form = SearchForm()
         searched = form.searched.data
-        filtered = filter_search(searched)
+        
+    if len(searched) == 0:
+        return render_template('index.html')
 
-        return render_template("search.html", searched=searched, form = form, filtered = filtered)
+    filtered = filter_search(searched)
+    return render_template("search.html", searched=searched, form = form, filtered = filtered)
+
+@app.route("/add_class", methods = ["POST"])
+def add_class():
+    # if request.method == "POST":
+    #     if request.form["add_class"]:
+    print("add button pressed.")
+        
+        # return render_template("index.html")
+    
+
 
 
 if __name__ == '__main__':

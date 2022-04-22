@@ -41,6 +41,7 @@ def search_class(prefix, class_list, classesJson, ratingsJson):
             course_name = data[class_code]["Class Title"]
             professor = data[class_code]["Professors"]
 
+            #get ratings if exist
             if ratings_data.get(professor):
                 prof_rating = ratings_data[professor]["Level of Difficulty"]
             else:
