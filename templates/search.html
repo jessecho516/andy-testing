@@ -57,7 +57,7 @@
             </td>
             <td>
                 <div class="r-no">
-                    <span>{{ post.prof_rating }}</span>
+                    <span>{{ post.prof_rating + "/5.0" }}</span>
                 </div>
             </td>
             <td>
@@ -66,7 +66,9 @@
                 </div>
             </td>
             <td>
-                <input type="submit" href="{{ url_for('add_class') }}" name = "add_class" value="Add Class">
+                <form method="post" action="{{url_for('add_class')}}">
+                    <input type="submit" name = "add_class" value="Add Class">
+                </form>
             </td>
         </tr>
     {% endfor %}

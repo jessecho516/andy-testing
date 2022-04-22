@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, url_for, session, redirect
+from flask import Flask, render_template, request, url_for, session, redirect, Blueprint
 from webforms import SearchForm
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
@@ -30,6 +30,8 @@ oauth.register(
     server_metadata_url=f'https://{env.get("AUTH0_DOMAIN")}/.well-known/openid-configuration'
 )
 
+
+## DATABASE CONFIG
 db_name = "database.db"
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///" + db_name
 app.config["SECRET_KEY"] = "abcde"
@@ -41,7 +43,7 @@ class Users(db.Model):
     name = db.Column(db.String(100), nullable=False)
     email = db.Column(db.String(120), nullable=False, unique=True)
     date_added = db.Column(db.DateTime, default=datetime.utcnow)
-    classes = db.relationship("Courses")
+    # classes = db.relationship("Courses")
 
     def __repr__(self):
         return "<Name %r>" % self.name
@@ -55,6 +57,7 @@ class Courses(db.Model):
     professor_name = db.Column(db.String(100))
 
 
+##ROUTES
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -130,11 +133,9 @@ def search():
 
 @app.route("/add_class", methods = ["POST"])
 def add_class():
-    # if request.method == "POST":
-    #     if request.form["add_class"]:
-    print("add button pressed.")
-        
-        # return render_template("index.html")
+    if request.method == "POST":
+
+        return render_template("index.html")
     
 
 
