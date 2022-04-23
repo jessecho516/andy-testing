@@ -6,13 +6,16 @@ class_json_path = os.path.join(current_file_dir, "json", "classes.json")
 ratings_json_path = os.path.join(current_file_dir, "json", "Professor_Ratings.json")
 
 class CourseInfo:
-    def __init__(self, time, course_name_section, professor, days_of_week, section_number, prof_rating):
+    def __init__(self, time, course_name_section, professor, days_of_week, section_number, prof_rating, class_code, section_num, course_name):
         self.time = time
         self.course_name_section = course_name_section
         self.professor = professor
         self.days_of_week = days_of_week
         self.section_number = section_number
         self.prof_rating = prof_rating
+        self.class_code = class_code
+        self.section_num = section_num
+        self.course_name = course_name
 
 def make_class_list(classesJson):
     class_file = open(classesJson)
@@ -57,7 +60,7 @@ def search_class(prefix, class_list, classesJson, ratingsJson):
                 section_number = section["Section Number"]
                 course_name_section = class_code + "-" + section_number + ": " + course_name 
 
-                curr_course = CourseInfo(curr_time, course_name_section, professor, days_of_week, section_number, prof_rating)
+                curr_course = CourseInfo(curr_time, course_name_section, professor, days_of_week, section_number, prof_rating, class_code, section_number, course_name)
                 results.append(curr_course)
     return results
 

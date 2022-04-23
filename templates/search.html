@@ -66,8 +66,8 @@
                 </div>
             </td>
             <td>
-                <form method="post" action="{{url_for('add_class')}}">
-                    <input type="submit" name = "add_class" value="Add Class">
+                <form method="post" action="{{url_for('add_class', class_code = post.class_code, section_num = post.section_num) }}">
+                    <input type="submit" value="Add Class">
                 </form>
             </td>
         </tr>
