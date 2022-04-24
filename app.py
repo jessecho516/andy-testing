@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, url_for, session, redirect
+from flask import Flask, render_template, request, url_for, session, redirect, flash
 from webforms import SearchForm
 from flask_wtf import FlaskForm
 from wtforms.validators import DataRequired
@@ -76,13 +76,23 @@ class Courses(db.Model):
     professor_name = db.Column(db.String(100))
 
 
-
 ##ROUTES
 @app.route('/')
 def index():
     full_name = "Pushin"
     if "user" in session:
         full_name = session["user"]["userinfo"]["name"]
+        
+        #get classes from user's db
+        user_courses = Courses.query.filter_by(user_id=session["user_id"])
+
+        monday_courses = user_courses.filter_by(day_of_week="Monday")
+        tuesday_courses = user_courses.filter_by(day_of_week="Tuesday")
+        wednesday_courses = user_courses.filter_by(day_of_week="Wednesday")
+        thursday_courses = user_courses.filter_by(day_of_week="Thursday")
+        friday_courses = user_courses.filter_by(day_of_week="Friday")
+        
+
 
     return render_template('index.html', name=full_name)
 
@@ -114,10 +124,10 @@ def callback():
         db.session.add(user)
         db.session.commit()
         print("user added to db.")
-
+        # flash("user added to db.", category="success")
     else:
-        print("user found in db.")
-        print(user.id)
+        print("user found to db.")
+        # flash("user found in db.", category="success")
 
     #store user id in session
     session["user_id"] = user.id
@@ -132,7 +142,7 @@ def logout():
         + "/v2/logout?"
         + urlencode(
             {
-                "returnTo": url_for("home", _external=True),
+                "returnTo": url_for("index", _external=True),
                 "client_id": env.get("AUTH0_CLIENT_ID"),
             },
             quote_via=quote_plus,
@@ -161,41 +171,91 @@ def search():
 @app.route("/add_class/<class_code>/<section_num>", methods = ["POST"])
 def add_class(class_code, section_num):
     if request.method == "POST":
+        course_query = Courses.query.filter_by(user_id=session["user_id"], class_code=class_code).count()
+        course_exists = False if course_query == 0 else True
+
+        if not course_exists:
+            class_file = open(class_json_path)
+            data = json.load(class_file)
+            
+            course_name = data[class_code]["Class Title"]
+            credit_hours = data[class_code]["Credit Hours"]
+            professor = data[class_code]["Professors"]
+            time = data[class_code]["Sections"][int(section_num) - 1]["Times"]
+            time_list = time.split(" ")
+            # print(time_list)
+
+            days_in_week = {}
+            for j, ele in enumerate(time_list):
+                if ele[0].isupper():
+                    for i, char in enumerate(ele):
+                        if not char.isupper():
+                            continue
+                        if days_map[char] not in days_in_week:
+                            days_in_week[days_map[char]] = time_list[j + 1].rstrip(";")
+                        else:   #if in seen, must have encountered Thursday. can't fall into else statement unless T has been added and Th is found. 
+                            days_in_week[days_map["Th"]] = time_list[j + 1].rstrip(";")
+                        
+            for day in days_in_week:
+                new_class = Courses(user_id = session["user_id"], class_code=class_code, class_title=course_name, 
+                section_number = section_num, credit_hours=credit_hours, day_of_week = day, time = days_in_week[day], professor_name = professor)
+                db.session.add(new_class)
+                db.session.commit()
+                print("class added to db.")
+                # flash("class added to db.", category="success")
+        else:
+            print("course already exists in db.")
+            # flash("course already exists in db.", category="error")
+                # classes = Courses.query.filter_by()
+                # classes = classes.filter(Courses.user_id)
+                # rows = classes.statement.execute().fetchall()
+                # for row in rows:
+                #     print(row)
+
+        return redirect("/")
+
+@app.route("/remove_class", methods = ["POST"])
+def remove_class():
+    if request.method == "POST":
+        course_query = Courses.query.filter_by(user_id=session["user_id"], class_code=class_code).count()
+        course_exists = False if course_query == 0 else True
         
-        class_file = open(class_json_path)
-        data = json.load(class_file)
+        if not course_exists:
+            class_file = open(class_json_path)
+            data = json.load(class_file)
+            
+            course_name = data[class_code]["Class Title"]
+            credit_hours = data[class_code]["Credit Hours"]
+            professor = data[class_code]["Professors"]
+            time = data[class_code]["Sections"][int(section_num) - 1]["Times"]
+            time_list = time.split(" ")
+            # print(time_list)
 
-        course_name = data[class_code]["Class Title"]
-        credit_hours = data[class_code]["Credit Hours"]
-        professor = data[class_code]["Professors"]
-        time = data[class_code]["Sections"][int(section_num) - 1]["Times"]
-        time_list = time.split(" ")
-        print(time_list)
 
-
-        days_in_week = {}
-        for j, ele in enumerate(time_list):
-            if ele[0].isupper():
-                for i, char in enumerate(ele):
-                    if not char.isupper():
-                        continue
-                    if days_map[char] not in days_in_week:
-                        days_in_week[days_map[char]] = time_list[j + 1].rstrip(";")
-                    else:   #if in seen, must have encountered Thursday. can't fall into else statement unless T has been added and Th is found. 
-                        days_in_week[days_map["Th"]] = time_list[j + 1].rstrip(";")
-                    
-        for day in days_in_week:
-            new_class = Courses(user_id = session["user_id"], class_code=class_code, class_title=course_name, 
-            section_number = section_num, credit_hours=credit_hours, day_of_week = day, time = days_in_week[day], professor_name = professor)
-            db.session.add(new_class)
-            db.session.commit()
-            print("class added to db.")
-        
-            classes = Courses.query.all()
-            # classes = classes.filter(Courses.user_id)
-            # rows = classes.statement.execute().fetchall()
-            # for row in rows:
-            #     print(row)
+            days_in_week = {}
+            for j, ele in enumerate(time_list):
+                if ele[0].isupper():
+                    for i, char in enumerate(ele):
+                        if not char.isupper():
+                            continue
+                        if days_map[char] not in days_in_week:
+                            days_in_week[days_map[char]] = time_list[j + 1].rstrip(";")
+                        else:   #if in seen, must have encountered Thursday. can't fall into else statement unless T has been added and Th is found. 
+                            days_in_week[days_map["Th"]] = time_list[j + 1].rstrip(";")
+                        
+            for day in days_in_week:
+                new_class = Courses(user_id = session["user_id"], class_code=class_code, class_title=course_name, 
+                section_number = section_num, credit_hours=credit_hours, day_of_week = day, time = days_in_week[day], professor_name = professor)
+                db.session.add(new_class)
+                db.session.commit()
+                print("class added to db.")
+        else:
+            print("course already exists in db.")
+                # classes = Courses.query.filter_by()
+                # classes = classes.filter(Courses.user_id)
+                # rows = classes.statement.execute().fetchall()
+                # for row in rows:
+                #     print(row)
 
         return redirect("/")
     

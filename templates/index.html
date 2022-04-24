@@ -9,9 +9,6 @@
                         <div class="title-text">
                             <h2>{{name}}'s Schedule</h2>
                         </div>
-                        <p>
-                            <button type="button" onclick="alert('Hello world!')">Add Class To Schedule</button>
-                        </p>
                     </div>
                 </div>
                 
@@ -262,7 +259,9 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                <input type="button" value="Remove" onclick="remove()">
+                                                <form method="post" action="{{ url_for('remove_class') }}">
+                                                    <input type="submit" value="Remove">
+                                                </form>
                                             </td>
                                         </tr>
                                         <tr class="inner-box">
