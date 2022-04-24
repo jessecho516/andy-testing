@@ -7,8 +7,11 @@
                 <div class="col-lg-12">
                     <div class="section-title text-center">
                         <div class="title-text">
-                            <h2>{{name}}'s Schedule</h2>
+                            <h2>Pushin's Schedule</h2>
                         </div>
+                        <p>
+                            <button type="button" onclick="alert('Hello world!')">Add Class To Schedule</button>
+                        </p>
                     </div>
                 </div>
                 
@@ -47,79 +50,49 @@
                                             <th scope="col">Remove</th>
                                         </tr>
                                     </thead>
+                                    <!-- from here we need to for loop inside the DB of all the user's monday classes and do the same for what we did for search.html -->
                                     <tbody>
-                                        <tr class="inner-box">
-                                            <th scope="row">
-                                                <div class="event-date">
-                                                    <p>8:30 AM - 9:45 AM</p>
-                                                </div>
-                                            </th>
-                                            <td>
-                                                <div class="event-wrap">
-                                                    <h3><a href="#">CS 326: Analysis of Algorithms</a></h3>
-                                                    <div class="meta">
-                                                        <div class="organizers">
-                                                            <a href="https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1083351" target="_blank">Michaelangelo Grigni</a>
-                                                        </div>
-                                                        <div class="categories">
-                                                            <a href="#">Mon/Wed</a>
-                                                        </div>
-                                                        <div class="time">
-                                                            <span></span>
+                                        <!-- start loop here, probs will need to change name -->
+                                        {% for post in filtered %}
+                                            <tr class="inner-box">
+                                                <th scope="row">
+                                                    <div class="event-date">
+                                                        <p>{{ post.time }}</p>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <div class="event-wrap">
+                                                        <h3><a href="#">{{ post.course_name_section }}</a></h3>
+                                                        <div class="meta">
+                                                            <div class="organizers">
+                                                                <a href="https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1083351" target="_blank">{{ post.professor }}</a>
+                                                            </div>
+                                                            <div class="categories">
+                                                                <a href="#">{{ post.days_of_week }}</a>
+                                                            </div>
+                                                            <div class="time">
+                                                                <span></span>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="r-no">
-                                                    <span>Math &amp; Science Center W201</span>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="primary-btn">
-                                                    <a class="btn btn-primary">Read More</a>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <input type="button" value="Remove" onclick="remove()">
-                                            </td>
-                                        </tr>
-                                        <tr class="inner-box">
-                                            <th scope="row">
-                                                <div class="event-date">
-                                                    <p>10:00 AM - 10:50 AM</p>
-                                                </div>
-                                            </th>
-                                            <td>
-                                                <div class="event-wrap">
-                                                    <h3><a href="#">PHIL 200W: Ancient Greek Philosophy</a></h3>
-                                                    <div class="meta">
-                                                        <div class="organizers">
-                                                            <a href="https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2399919" target="_blank">Jeremy Bell</a>
-                                                        </div>
-                                                        <div class="categories">
-                                                            <a href="#">Mon/Wed/Fri</a>
-                                                        </div>
-                                                        <div class="time">
-                                                            <span></span>
-                                                        </div>
+                                                </td>
+                                                <td>
+                                                    <div class="r-no">
+                                                        <span>{{ post.prof_rating + "/5.0" }}</span>
                                                     </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="r-no">
-                                                    <span>Callaway Center N118</span>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="primary-btn">
-                                                    <a class="btn btn-primary">Read More</a>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <input type="button" value="Remove" onclick="remove()">
-                                            </td>
-                                        </tr>
+                                                </td>
+                                                <td>
+                                                    <div class="primary-btn">
+                                                        <a class="btn btn-primary">Read More</a>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <form method="post" action="{{url_for('add_class')}}">
+                                                        <input type="submit" name = "add_class" value="Add Class">
+                                                    </form>
+                                                </td>
+                                            </tr>
+                                        {% endfor %}
                                     </tbody>
                                 </table>
                             </div>
@@ -136,79 +109,49 @@
                                             <th scope="col">Remove</th>
                                         </tr>
                                     </thead>
+                                    <!-- from here we need to for loop inside the DB of all the user's tuesday classes and do the same for what we did for search.html -->
                                     <tbody>
-                                        <tr class="inner-box">
-                                            <th scope="row">
-                                                <div class="event-date">
-                                                    <p>8:30 AM - 9:45 AM</p>
-                                                </div>
-                                            </th>
-                                            <td>
-                                                <div class="event-wrap">
-                                                    <h3><a href="#">CS 326: Analysis of Algorithms</a></h3>
-                                                    <div class="meta">
-                                                        <div class="organizers">
-                                                            <a href="https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1083351" target="_blank">Michaelangelo Grigni</a>
-                                                        </div>
-                                                        <div class="categories">
-                                                            <a href="#">Mon/Wed</a>
-                                                        </div>
-                                                        <div class="time">
-                                                            <span></span>
+                                        <!-- start loop here, probs will need to change name -->
+                                        {% for post in filtered %}
+                                            <tr class="inner-box">
+                                                <th scope="row">
+                                                    <div class="event-date">
+                                                        <p>{{ post.time }}</p>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <div class="event-wrap">
+                                                        <h3><a href="#">{{ post.course_name_section }}</a></h3>
+                                                        <div class="meta">
+                                                            <div class="organizers">
+                                                                <a href="https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1083351" target="_blank">{{ post.professor }}</a>
+                                                            </div>
+                                                            <div class="categories">
+                                                                <a href="#">{{ post.days_of_week }}</a>
+                                                            </div>
+                                                            <div class="time">
+                                                                <span></span>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="r-no">
-                                                    <span>Math &amp; Science Center W201</span>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="primary-btn">
-                                                    <a class="btn btn-primary">Read More</a>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <input type="button" value="Remove" onclick="remove()">
-                                            </td>
-                                        </tr>
-                                        <tr class="inner-box">
-                                            <th scope="row">
-                                                <div class="event-date">
-                                                    <p>10:00 AM - 10:50 AM</p>
-                                                </div>
-                                            </th>
-                                            <td>
-                                                <div class="event-wrap">
-                                                    <h3><a href="#">PHIL 200W: Ancient Greek Philosophy</a></h3>
-                                                    <div class="meta">
-                                                        <div class="organizers">
-                                                            <a href="https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2399919" target="_blank">Jeremy Bell</a>
-                                                        </div>
-                                                        <div class="categories">
-                                                            <a href="#">Mon/Wed/Fri</a>
-                                                        </div>
-                                                        <div class="time">
-                                                            <span></span>
-                                                        </div>
+                                                </td>
+                                                <td>
+                                                    <div class="r-no">
+                                                        <span>{{ post.prof_rating + "/5.0" }}</span>
                                                     </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="r-no">
-                                                    <span>Callaway Center N118</span>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="primary-btn">
-                                                    <a class="btn btn-primary">Read More</a>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <input type="button" value="Remove" onclick="remove()">
-                                            </td>
-                                        </tr>
+                                                </td>
+                                                <td>
+                                                    <div class="primary-btn">
+                                                        <a class="btn btn-primary">Read More</a>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <form method="post" action="{{url_for('add_class')}}">
+                                                        <input type="submit" name = "add_class" value="Add Class">
+                                                    </form>
+                                                </td>
+                                            </tr>
+                                        {% endfor %}
                                     </tbody>
                                 </table>
                             </div>
@@ -225,81 +168,49 @@
                                             <th scope="col">Remove</th>
                                         </tr>
                                     </thead>
+                                    <!-- from here we need to for loop inside the DB of all the user's wednesday classes and do the same for what we did for search.html -->
                                     <tbody>
-                                        <tr class="inner-box">
-                                            <th scope="row">
-                                                <div class="event-date">
-                                                    <p>8:30 AM - 9:45 AM</p>
-                                                </div>
-                                            </th>
-                                            <td>
-                                                <div class="event-wrap">
-                                                    <h3><a href="#">CS 326: Analysis of Algorithms</a></h3>
-                                                    <div class="meta">
-                                                        <div class="organizers">
-                                                            <a href="https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1083351" target="_blank">Michaelangelo Grigni</a>
-                                                        </div>
-                                                        <div class="categories">
-                                                            <a href="#">Mon/Wed</a>
-                                                        </div>
-                                                        <div class="time">
-                                                            <span></span>
+                                        <!-- start loop here, probs will need to change name -->
+                                        {% for post in filtered %}
+                                            <tr class="inner-box">
+                                                <th scope="row">
+                                                    <div class="event-date">
+                                                        <p>{{ post.time }}</p>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <div class="event-wrap">
+                                                        <h3><a href="#">{{ post.course_name_section }}</a></h3>
+                                                        <div class="meta">
+                                                            <div class="organizers">
+                                                                <a href="https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1083351" target="_blank">{{ post.professor }}</a>
+                                                            </div>
+                                                            <div class="categories">
+                                                                <a href="#">{{ post.days_of_week }}</a>
+                                                            </div>
+                                                            <div class="time">
+                                                                <span></span>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="r-no">
-                                                    <span>Math &amp; Science Center W201</span>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="primary-btn">
-                                                    <a class="btn btn-primary">Read More</a>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <form method="post" action="{{ url_for('remove_class') }}">
-                                                    <input type="submit" value="Remove">
-                                                </form>
-                                            </td>
-                                        </tr>
-                                        <tr class="inner-box">
-                                            <th scope="row">
-                                                <div class="event-date">
-                                                    <p>10:00 AM - 10:50 AM</p>
-                                                </div>
-                                            </th>
-                                            <td>
-                                                <div class="event-wrap">
-                                                    <h3><a href="#">PHIL 200W: Ancient Greek Philosophy</a></h3>
-                                                    <div class="meta">
-                                                        <div class="organizers">
-                                                            <a href="https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2399919" target="_blank">Jeremy Bell</a>
-                                                        </div>
-                                                        <div class="categories">
-                                                            <a href="#">Mon/Wed/Fri</a>
-                                                        </div>
-                                                        <div class="time">
-                                                            <span></span>
-                                                        </div>
+                                                </td>
+                                                <td>
+                                                    <div class="r-no">
+                                                        <span>{{ post.prof_rating + "/5.0" }}</span>
                                                     </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="r-no">
-                                                    <span>Callaway Center N118</span>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="primary-btn">
-                                                    <a class="btn btn-primary">Read More</a>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <input type="button" value="Remove" onclick="remove()">
-                                            </td>
-                                        </tr>
+                                                </td>
+                                                <td>
+                                                    <div class="primary-btn">
+                                                        <a class="btn btn-primary">Read More</a>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <form method="post" action="{{url_for('add_class')}}">
+                                                        <input type="submit" name = "add_class" value="Add Class">
+                                                    </form>
+                                                </td>
+                                            </tr>
+                                        {% endfor %}
                                     </tbody>
                                 </table>
                             </div>
@@ -316,79 +227,49 @@
                                             <th scope="col">Remove</th>
                                         </tr>
                                     </thead>
+                                    <!-- from here we need to for loop inside the DB of all the user's thursday classes and do the same for what we did for search.html -->
                                     <tbody>
-                                        <tr class="inner-box">
-                                            <th scope="row">
-                                                <div class="event-date">
-                                                    <p>8:30 AM - 9:45 AM</p>
-                                                </div>
-                                            </th>
-                                            <td>
-                                                <div class="event-wrap">
-                                                    <h3><a href="#">CS 326: Analysis of Algorithms</a></h3>
-                                                    <div class="meta">
-                                                        <div class="organizers">
-                                                            <a href="https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1083351" target="_blank">Michaelangelo Grigni</a>
-                                                        </div>
-                                                        <div class="categories">
-                                                            <a href="#">Mon/Wed</a>
-                                                        </div>
-                                                        <div class="time">
-                                                            <span></span>
+                                        <!-- start loop here, probs will need to change name -->
+                                        {% for post in filtered %}
+                                            <tr class="inner-box">
+                                                <th scope="row">
+                                                    <div class="event-date">
+                                                        <p>{{ post.time }}</p>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <div class="event-wrap">
+                                                        <h3><a href="#">{{ post.course_name_section }}</a></h3>
+                                                        <div class="meta">
+                                                            <div class="organizers">
+                                                                <a href="https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1083351" target="_blank">{{ post.professor }}</a>
+                                                            </div>
+                                                            <div class="categories">
+                                                                <a href="#">{{ post.days_of_week }}</a>
+                                                            </div>
+                                                            <div class="time">
+                                                                <span></span>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="r-no">
-                                                    <span>Math &amp; Science Center W201</span>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="primary-btn">
-                                                    <a class="btn btn-primary">Read More</a>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <input type="button" value="Remove" onclick="remove()">
-                                            </td>
-                                        </tr>
-                                        <tr class="inner-box">
-                                            <th scope="row">
-                                                <div class="event-date">
-                                                    <p>10:00 AM - 10:50 AM</p>
-                                                </div>
-                                            </th>
-                                            <td>
-                                                <div class="event-wrap">
-                                                    <h3><a href="#">PHIL 200W: Ancient Greek Philosophy</a></h3>
-                                                    <div class="meta">
-                                                        <div class="organizers">
-                                                            <a href="https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2399919" target="_blank">Jeremy Bell</a>
-                                                        </div>
-                                                        <div class="categories">
-                                                            <a href="#">Mon/Wed/Fri</a>
-                                                        </div>
-                                                        <div class="time">
-                                                            <span></span>
-                                                        </div>
+                                                </td>
+                                                <td>
+                                                    <div class="r-no">
+                                                        <span>{{ post.prof_rating + "/5.0" }}</span>
                                                     </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="r-no">
-                                                    <span>Callaway Center N118</span>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="primary-btn">
-                                                    <a class="btn btn-primary">Read More</a>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <input type="button" value="Remove" onclick="remove()">
-                                            </td>
-                                        </tr>
+                                                </td>
+                                                <td>
+                                                    <div class="primary-btn">
+                                                        <a class="btn btn-primary">Read More</a>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <form method="post" action="{{url_for('add_class')}}">
+                                                        <input type="submit" name = "add_class" value="Add Class">
+                                                    </form>
+                                                </td>
+                                            </tr>
+                                        {% endfor %}
                                     </tbody>
                                 </table>
                             </div>
@@ -405,79 +286,49 @@
                                             <th scope="col">Remove</th>
                                         </tr>
                                     </thead>
+                                    <!-- from here we need to for loop inside the DB of all the user's friday classes and do the same for what we did for search.html -->
                                     <tbody>
-                                        <tr class="inner-box">
-                                            <th scope="row">
-                                                <div class="event-date">
-                                                    <p>8:30 AM - 9:45 AM</p>
-                                                </div>
-                                            </th>
-                                            <td>
-                                                <div class="event-wrap">
-                                                    <h3><a href="#">CS 326: Analysis of Algorithms</a></h3>
-                                                    <div class="meta">
-                                                        <div class="organizers">
-                                                            <a href="https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1083351" target="_blank">Michaelangelo Grigni</a>
-                                                        </div>
-                                                        <div class="categories">
-                                                            <a href="#">Mon/Wed</a>
-                                                        </div>
-                                                        <div class="time">
-                                                            <span></span>
+                                        <!-- start loop here, probs will need to change name -->
+                                        {% for post in filtered %}
+                                            <tr class="inner-box">
+                                                <th scope="row">
+                                                    <div class="event-date">
+                                                        <p>{{ post.time }}</p>
+                                                    </div>
+                                                </th>
+                                                <td>
+                                                    <div class="event-wrap">
+                                                        <h3><a href="#">{{ post.course_name_section }}</a></h3>
+                                                        <div class="meta">
+                                                            <div class="organizers">
+                                                                <a href="https://www.ratemyprofessors.com/ShowRatings.jsp?tid=1083351" target="_blank">{{ post.professor }}</a>
+                                                            </div>
+                                                            <div class="categories">
+                                                                <a href="#">{{ post.days_of_week }}</a>
+                                                            </div>
+                                                            <div class="time">
+                                                                <span></span>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="r-no">
-                                                    <span>Math &amp; Science Center W201</span>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="primary-btn">
-                                                    <a class="btn btn-primary">Read More</a>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <input type="button" value="Remove" onclick="remove()">
-                                            </td>
-                                        </tr>
-                                        <tr class="inner-box">
-                                            <th scope="row">
-                                                <div class="event-date">
-                                                    <p>10:00 AM - 10:50 AM</p>
-                                                </div>
-                                            </th>
-                                            <td>
-                                                <div class="event-wrap">
-                                                    <h3><a href="#">PHIL 200W: Ancient Greek Philosophy</a></h3>
-                                                    <div class="meta">
-                                                        <div class="organizers">
-                                                            <a href="https://www.ratemyprofessors.com/ShowRatings.jsp?tid=2399919" target="_blank">Jeremy Bell</a>
-                                                        </div>
-                                                        <div class="categories">
-                                                            <a href="#">Mon/Wed/Fri</a>
-                                                        </div>
-                                                        <div class="time">
-                                                            <span></span>
-                                                        </div>
+                                                </td>
+                                                <td>
+                                                    <div class="r-no">
+                                                        <span>{{ post.prof_rating + "/5.0" }}</span>
                                                     </div>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="r-no">
-                                                    <span>Callaway Center N118</span>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="primary-btn">
-                                                    <a class="btn btn-primary">Read More</a>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <input type="button" value="Remove" onclick="remove()">
-                                            </td>
-                                        </tr>
+                                                </td>
+                                                <td>
+                                                    <div class="primary-btn">
+                                                        <a class="btn btn-primary">Read More</a>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <form method="post" action="{{url_for('add_class')}}">
+                                                        <input type="submit" name = "add_class" value="Add Class">
+                                                    </form>
+                                                </td>
+                                            </tr>
+                                        {% endfor %}
                                     </tbody>
                                 </table>
                             </div>
