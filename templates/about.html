@@ -16,10 +16,13 @@
                     <a class="nav-link active" aria-current="page" href="{{ url_for('index') }}">Home</a>
                   </li>
                   <li class="nav-item">
+                    <a class="nav-link disabled" href="{{ url_for('about') }}">About</a>
+                  </li>
+                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="{{ url_for('login')}}">Login</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="{{ url_for('about') }}">About</a>
+                   <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/logout">Logout</a>
                   </li>
                 </ul>
               </div>
